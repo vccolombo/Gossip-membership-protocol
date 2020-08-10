@@ -6,6 +6,10 @@
 
 IPAddress::IPAddress(std::string ip) { setIPFromString(ip); }
 
+bool IPAddress::operator==(IPAddress &rhs) {
+    return this->getIP() == rhs.getIP();
+}
+
 void IPAddress::setIPFromString(std::string ip) {
     std::string delimiter = ".";
 

@@ -3,7 +3,7 @@
 #include "src/IPAddress.hpp"
 
 int main() {
-    IPAddress ip("192.168.0.17");
+    IPAddress ip("255.255.255.255");
 
     std::cout << ip.getIP() << std::endl;
 }

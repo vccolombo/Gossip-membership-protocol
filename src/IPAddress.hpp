@@ -11,5 +11,7 @@ class IPAddress {
    public:
     IPAddress(std::string ip);
 
+    bool operator==(IPAddress &rhs);
+
     std::string getIP();
 };

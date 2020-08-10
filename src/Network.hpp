@@ -1,15 +1,20 @@
 #pragma once
 
 #include <map>
+#include <queue>
+#include <random>
 
+#include "../Configs.cpp"
+#include "Host.hpp"
 #include "IPAddress.hpp"
 #include "Message.hpp"
-#include "NodeMember.hpp"
 
 class Network {
-    std::map<IPAddress, NodeMember*> m;
+    std::map<IPAddress, Host*> hosts;
+    std::queue<Message> messages;
 
    public:
-    IPAddress connect(NodeMember*);
-    void routeMessage(Message);
+    void connect(IPAddress ip, Host* member);
+    void routeMessage(Message msg);
+    void dispatchMessages();
 };
