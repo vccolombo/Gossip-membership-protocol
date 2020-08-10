@@ -9,5 +9,6 @@ struct Message {
     IPAddress from;
     IPAddress to;
     MessageType msgType;
+    unsigned int heartbeat;
     std::vector<HostsListEntry> membersList;
 };

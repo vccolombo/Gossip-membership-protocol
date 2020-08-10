@@ -22,7 +22,7 @@ void IPAddress::setIPFromString(std::string ip) {
             throw std::invalid_argument("Invalid IP");
         }
 
-        this->ip[part++] = std::bitset<8>(sub);
+        this->ip[part++] = sub;
 
         ip.erase(0, pos + delimiter.length());
     }
@@ -35,7 +35,7 @@ std::string IPAddress::getIP() {
             result += ".";
         }
 
-        result += std::to_string(this->ip[i].to_ulong());
+        result += std::to_string(this->ip[i]);
     }
 
     return result;

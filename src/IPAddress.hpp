@@ -1,10 +1,9 @@
 #pragma once
 
-#include <bitset>
 #include <string>
 
 class IPAddress {
-    std::bitset<8> ip[4];
+    uint8_t ip[4] = {0};
 
     void setIPFromString(std::string ip);
 

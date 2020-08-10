@@ -9,14 +9,14 @@
 
 struct HostsListEntry {
     IPAddress ip;
-    int heartbeat;
-    int timestamp;
+    unsigned int heartbeat;
+    unsigned int timestamp;
 };
 
 class Host {
     IPAddress ip;
     Network* network;
-    int heartbeat;
+    unsigned int heartbeat;
     std::vector<HostsListEntry> hostsList;
     bool failed = false;
 
