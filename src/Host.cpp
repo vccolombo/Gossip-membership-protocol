@@ -8,6 +8,17 @@ Host::Host(Address addr, Network* network) {
     this->network = network;
 
     this->network->connect(this->addr, this);
+
+    HostListEntry hle;
+    hle.addr = this->addr;
+    hle.heartbeat = this->heartbeat;
+    hle.timestamp = this->localClock;
+    this->hostsList.push_back(hle);
+}
+
+Host::Host(Address addr, Network* network, Address introducerAddr)
+    : Host(addr, network) {
+    sendMessage(introducerAddr, MessageType::JOINREQ);
 }
 
 void Host::receiveMessage(Message msg) {
@@ -20,6 +31,19 @@ void Host::receiveMessage(Message msg) {
     }
 }
 
-void Host::processLoop() { this->heartbeat++; }
+void Host::processLoop() {
+    this->heartbeat++;
 
-void Host::sendMessage() {}
+    if (!this->joined || this->failed) return;
+}
+
+void Host::sendMessage(Address to, MessageType msgType) {
+    Message msg;
+    msg.from = this->addr;
+    msg.to = to;
+    msg.msgType = msgType;
+    msg.heartbeat = this->heartbeat;
+    msg.hostsList = this->hostsList;
+
+    this->network->routeMessage(msg);
+}

@@ -4,7 +4,5 @@
 
 class Config {
    public:
-    static const unsigned int NUMBER_OF_LOOPS;
+    static const unsigned int NUMBER_OF_LOOPS = 10;
 };
-
-const unsigned int Config::NUMBER_OF_LOOPS = 10;
