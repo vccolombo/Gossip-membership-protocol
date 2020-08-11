@@ -13,6 +13,6 @@ struct Message {
     IPAddress from;
     IPAddress to;
     MessageType msgType;
-    unsigned int heartbeat;
+    unsigned long heartbeat;
     std::vector<HostListEntry> hostsList;
 };

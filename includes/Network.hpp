@@ -10,7 +10,7 @@
 class Host;
 
 class Network {
-    std::unordered_map<std::string, Host*> connectedHosts;
+    std::unordered_map<IPAddress, Host*> connectedHosts;
     std::queue<Message> messages;
 
    public:

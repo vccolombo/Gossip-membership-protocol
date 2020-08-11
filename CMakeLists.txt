@@ -6,6 +6,8 @@ set(EXEC application)
 
 set(CMAKE_CXX_STANDARD 14)
 
+add_compile_options(-Wall -Wextra -pedantic -Werror)
+
 include_directories(includes/)
 
 file(GLOB SOURCES src/*.cpp)

@@ -7,12 +7,16 @@
 class Network;
 
 struct HostListEntry {
-    IPAddress addr;
-    unsigned int heartbeat;
-    unsigned int timestam;
+    IPAddress ip;
+    unsigned long heartbeat;
+    unsigned long timestam;
 };
 
 class Host {
+    IPAddress ip;
+    Network* network;
+    unsigned long heartbeat;
+
    public:
     Host(std::string ip, Network* network);
     void receiveMessage(Message msg);
