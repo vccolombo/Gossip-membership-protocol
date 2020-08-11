@@ -13,7 +13,7 @@ Host::Host(Address addr, Network* network) {
 
     this->network->connect(this->addr, this);
 
-    insertHostEntry(this->addr, this->heartbeat);
+    insertEntry(this->addr, this->heartbeat);
 }
 
 Host::Host(Address addr, Network* network, Address introducerAddr)
@@ -22,11 +22,15 @@ Host::Host(Address addr, Network* network, Address introducerAddr)
 }
 
 void Host::receiveMessage(Message msg) {
+    updateLocalList(msg.from, msg.heartbeat);
+
     if (msg.msgType == MessageType::JOINREQ) {
         receiveJOINREQ(msg);
-    } else if (msg.msgType == MessageType::JOINREP) {
+    }
+    if (msg.msgType == MessageType::JOINREP) {
         receiveJOINREP(msg);
-    } else if (msg.msgType == MessageType::GOSSIP) {
+    }
+    if (msg.msgType == MessageType::GOSSIP) {
         receiveGOSSIP(msg);
     }
 }
@@ -35,7 +39,7 @@ void Host::receiveJOINREQ(Message msg) {
     printf("[%s] JOINREQ received from %s\n", this->addr.c_str(),
            msg.from.c_str());
 
-    updateLocalHostsList(msg.hostsList);
+    updateLocalList(msg.hostsList);
 
     sendMessage(msg.from, MessageType::JOINREP);
 }
@@ -49,26 +53,35 @@ void Host::receiveJOINREP(Message msg) {
 
 void Host::receiveGOSSIP(Message msg) {}
 
-void Host::updateLocalHostsList(std::vector<HostListEntry> hostsList) {
+void Host::updateLocalList(std::vector<HostListEntry> hostsList) {
     for (auto& hostEntry : hostsList) {
-        updateLocalHostsList(hostEntry);
+        updateLocalList(hostEntry);
     }
 }
 
-void Host::updateLocalHostsList(HostListEntry hostEntry) {
-    HostListEntry* localEntry = findListEntry(hostEntry.addr);
+void Host::updateLocalList(Address addr, unsigned long heartbeat) {
+    HostListEntry entry;
+    entry.addr = addr;
+    entry.heartbeat = heartbeat;
+    entry.timestamp = this->localClock;
+
+    updateLocalList(entry);
+}
+
+void Host::updateLocalList(HostListEntry hostEntry) {
+    HostListEntry* localEntry = findEntry(hostEntry.addr);
 
     if (localEntry == nullptr) {
-        insertHostEntry(hostEntry);
-    } else {
-        if (hostEntry.heartbeat > localEntry->heartbeat) {
-            localEntry->heartbeat = hostEntry.heartbeat;
-            localEntry->timestamp = this->localClock;
-        }
+        return insertEntry(hostEntry);
+    }
+
+    if (hostEntry.heartbeat > localEntry->heartbeat) {
+        localEntry->heartbeat = hostEntry.heartbeat;
+        localEntry->timestamp = this->localClock;
     }
 }
 
-HostListEntry* Host::findListEntry(Address addr) {
+HostListEntry* Host::findEntry(Address addr) {
     for (auto& localEntry : this->hostsList) {
         if (localEntry.addr == addr) {
             return &localEntry;
@@ -78,11 +91,11 @@ HostListEntry* Host::findListEntry(Address addr) {
     return nullptr;
 }
 
-void Host::insertHostEntry(HostListEntry entry) {
-    insertHostEntry(entry.addr, entry.heartbeat);
+void Host::insertEntry(HostListEntry entry) {
+    insertEntry(entry.addr, entry.heartbeat);
 }
 
-void Host::insertHostEntry(Address addr, unsigned long heartbeat) {
+void Host::insertEntry(Address addr, unsigned long heartbeat) {
     HostListEntry hle;
     hle.addr = addr;
     hle.heartbeat = heartbeat;

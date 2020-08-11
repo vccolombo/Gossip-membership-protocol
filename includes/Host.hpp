@@ -25,11 +25,12 @@ class Host {
     void receiveJOINREQ(Message msg);
     void receiveJOINREP(Message msg);
     void receiveGOSSIP(Message msg);
-    void updateLocalHostsList(std::vector<HostListEntry> hostsList);
-    void updateLocalHostsList(HostListEntry hostsList);
-    HostListEntry* findListEntry(Address addr);
-    void insertHostEntry(HostListEntry entry);
-    void insertHostEntry(Address addr, unsigned long heartbeat);
+    void updateLocalList(std::vector<HostListEntry> hostsList);
+    void updateLocalList(Address addr, unsigned long heartbeat);
+    void updateLocalList(HostListEntry hostsList);
+    HostListEntry* findEntry(Address addr);
+    void insertEntry(HostListEntry entry);
+    void insertEntry(Address addr, unsigned long heartbeat);
     void sendMessage(Address to, MessageType msgType);
 
    public:
