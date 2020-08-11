@@ -1,20 +1,21 @@
 #pragma once
 
-#include <map>
 #include <queue>
-#include <random>
+#include <unordered_map>
 
-#include "../Configs.cpp"
 #include "Host.hpp"
 #include "IPAddress.hpp"
 #include "Message.hpp"
 
+class Host;
+
 class Network {
-    std::map<IPAddress, Host*> hosts;
+    std::unordered_map<std::string, Host*> connectedHosts;
     std::queue<Message> messages;
 
    public:
-    void connect(IPAddress ip, Host* member);
+    Network(){};
+    void connect(IPAddress ip, Host* host);
     void routeMessage(Message msg);
     void dispatchMessages();
 };

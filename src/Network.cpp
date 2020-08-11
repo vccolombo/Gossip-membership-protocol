@@ -1,9 +1,11 @@
 #include "Network.hpp"
 
-#include "utils/random.cpp"
+#include "Host.hpp"
+#include "IPAddress.hpp"
+#include "Message.hpp"
 
-void Network::connect(IPAddress ip, Host* member) {
-    this->hosts.insert({ip, member});
+void Network::connect(IPAddress ip, Host* host) {
+    this->connectedHosts.insert({ip.getIP(), host});
 }
 
 void Network::routeMessage(Message msg) { this->messages.push(msg); }
@@ -11,10 +13,9 @@ void Network::routeMessage(Message msg) { this->messages.push(msg); }
 void Network::dispatchMessages() {
     while (!this->messages.empty()) {
         Message msg = this->messages.front();
-        this->messages.pop();
 
-        if (Random::randomFloat(0, 1) >= Configs::MSG_FAILURE_CHANCE) {
-            hosts[msg.to]->receiveMessage(msg);
-        }
+        this->connectedHosts[msg.to.getIP()]->receiveMessage(msg);
+
+        this->messages.pop();
     }
 }

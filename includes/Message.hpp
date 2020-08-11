@@ -2,13 +2,17 @@
 
 #include <vector>
 
+#include "Host.hpp"
 #include "IPAddress.hpp"
 
+struct HostListEntry;
+
 enum class MessageType { JOINREQ, JOINREP, GOSSIP };
+
 struct Message {
     IPAddress from;
     IPAddress to;
     MessageType msgType;
     unsigned int heartbeat;
-    std::vector<HostsListEntry> membersList;
+    std::vector<HostListEntry> hostsList;
 };
