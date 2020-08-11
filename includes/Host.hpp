@@ -1,23 +1,32 @@
 #pragma once
 
-#include "IPAddress.hpp"
+#include <vector>
+
+#include "Address.hpp"
 #include "Message.hpp"
 #include "Network.hpp"
 
 class Network;
 
 struct HostListEntry {
-    IPAddress ip;
+    Address addr;
     unsigned long heartbeat;
     unsigned long timestam;
 };
 
 class Host {
-    IPAddress ip;
     Network* network;
+    unsigned long localClock;
+    bool joined = false;
     unsigned long heartbeat;
+    std::vector<HostListEntry> hostsList;
+
+    void sendMessage();
 
    public:
-    Host(std::string ip, Network* network);
+    Address addr;
+
+    Host(Address addr, Network* network);
     void receiveMessage(Message msg);
+    void processLoop();
 };

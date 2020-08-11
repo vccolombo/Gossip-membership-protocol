@@ -4,18 +4,17 @@
 #include <unordered_map>
 
 #include "Host.hpp"
-#include "IPAddress.hpp"
+#include "Address.hpp"
 #include "Message.hpp"
 
 class Host;
 
 class Network {
-    std::unordered_map<IPAddress, Host*> connectedHosts;
+    std::unordered_map<Address, Host*> connectedHosts;
     std::queue<Message> messages;
 
    public:
-    Network(){};
-    void connect(IPAddress ip, Host* host);
+    void connect(Address addr, Host* host);
     void routeMessage(Message msg);
     void dispatchMessages();
 };

@@ -2,4 +2,4 @@
 
 #include <string>
 
-typedef std::string IPAddress;
+typedef std::string Address;

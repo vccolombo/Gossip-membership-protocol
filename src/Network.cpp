@@ -1,11 +1,11 @@
 #include "Network.hpp"
 
 #include "Host.hpp"
-#include "IPAddress.hpp"
+#include "Address.hpp"
 #include "Message.hpp"
 
-void Network::connect(IPAddress ip, Host* host) {
-    this->connectedHosts.insert({ip, host});
+void Network::connect(Address addr, Host* host) {
+    this->connectedHosts.insert({addr, host});
 }
 
 void Network::routeMessage(Message msg) { this->messages.push(msg); }

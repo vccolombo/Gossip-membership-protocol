@@ -3,15 +3,15 @@
 #include <vector>
 
 #include "Host.hpp"
-#include "IPAddress.hpp"
+#include "Address.hpp"
 
 struct HostListEntry;
 
 enum class MessageType { JOINREQ, JOINREP, GOSSIP };
 
 struct Message {
-    IPAddress from;
-    IPAddress to;
+    Address from;
+    Address to;
     MessageType msgType;
     unsigned long heartbeat;
     std::vector<HostListEntry> hostsList;
