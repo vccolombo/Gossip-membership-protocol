@@ -1,48 +1,52 @@
+#include <cstdio>
+#include <fstream>
 #include <iostream>
+#include <vector>
 
 #include "Config.hpp"
+#include "Host.hpp"
 #include "Network.hpp"
 
 int main() {
     Network* network = new Network();
+    std::vector<Host*> hosts;
 
-    Host* host0 = new Host("192.168.0.10", network);
-    Host* host1 = new Host("192.168.0.11", network, "192.168.0.10");
-    Host* host2 = new Host("192.168.0.12", network, "192.168.0.10");
-    Host* host3 = new Host("192.168.0.13", network, "192.168.0.10");
-    Host* host4 = new Host("192.168.0.14", network, "192.168.0.10");
-    Host* host5 = new Host("192.168.0.15", network, "192.168.0.10");
-    Host* host6 = new Host("192.168.0.16", network, "192.168.0.10");
-    Host* host7 = new Host("192.168.0.17", network, "192.168.0.10");
-    Host* host8 = new Host("192.168.0.18", network, "192.168.0.10");
-    Host* host9 = new Host("192.168.0.19", network, "192.168.0.10");
+    printf("Running test file %s\n", Config::TEST_FILE.c_str());
+
+    std::ifstream testFile;
+    testFile.open(Config::TEST_FILE);
+
+    std::string hostIp, introducerIp;
+    if (testFile.is_open()) {
+        // get introducers
+        while (getline(testFile, hostIp) && hostIp != "") {
+            Host* host = new Host(hostIp, network);
+            hosts.push_back(host);
+        }
+
+        // get other hosts
+        while (getline(testFile, hostIp, ' ') &&
+               getline(testFile, introducerIp)) {
+            Host* host = new Host(hostIp, network, introducerIp);
+            hosts.push_back(host);
+        }
+        testFile.close();
+    }
 
     for (size_t cycle = 1; cycle <= Config::NUMBER_OF_LOOPS; cycle++) {
         std::cout << "Cycle " << cycle << std::endl;
 
         network->dispatchMessages();
 
-        host0->processLoop();
-        host1->processLoop();
-        host2->processLoop();
-        host3->processLoop();
-        host4->processLoop();
-        host5->processLoop();
-        host6->processLoop();
-        host7->processLoop();
-        host8->processLoop();
-        host9->processLoop();
-
-        if (cycle == 50) {
-            host1->failed = true;
-            host2->failed = true;
+        for (auto& host : hosts) {
+            host->processLoop();
         }
 
         std::cout << std::endl;
     }
 
-    delete host0;
-    delete host1;
-    delete host2;
+    for (auto& host : hosts) {
+        delete host;
+    }
     delete network;
 }
