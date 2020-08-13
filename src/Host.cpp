@@ -5,6 +5,7 @@
 
 #include "Config.hpp"
 #include "Message.hpp"
+#include "RandomUtil.hpp"
 
 Host::Host(Address addr, Network* network) {
     this->addr = addr;
@@ -46,10 +47,15 @@ void Host::receiveJOINREP(Message msg) {
     printf("[%s] JOINREP received from %s\n", this->addr.c_str(),
            msg.from.c_str());
 
-    this->joined = true;
+    updateView(msg.payload.view);
 }
 
-void Host::receiveGOSSIP(Message msg) {}
+void Host::receiveGOSSIP(Message msg) {
+    printf("[%s] GOSSIP received from %s\n", this->addr.c_str(),
+           msg.from.c_str());
+
+    updateView(msg.payload.view);
+}
 
 void Host::updateView(const std::unordered_map<Address, unsigned long>& view) {
     for (auto const& row : view) {
@@ -82,10 +88,19 @@ void Host::processLoop() {
     this->heartbeat++;
     updateViewEntry(this->addr, this->heartbeat);
 
-    if (!this->joined || this->failed) return;
+    if (this->failed) return;
 
     // Send gossip
-    // ...
+    sendGossip();
+}
+
+void Host::sendGossip() {
+    int gossipTo = RandomUtil::randomInt(0, this->view.size() - 1);
+    for (auto& it : this->view) {
+        if (gossipTo-- == 0) {
+            return sendMessage(it.first, MessageType::GOSSIP);
+        }
+    }
 }
 
 void Host::sendMessage(Address to, MessageType msgType) {
