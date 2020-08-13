@@ -1,6 +1,6 @@
 #pragma once
 
-#include <vector>
+#include <unordered_map>
 
 #include "Address.hpp"
 #include "Message.hpp"
@@ -8,29 +8,19 @@
 
 class Network;
 
-struct HostListEntry {
-    Address addr;
-    unsigned long heartbeat;
-    unsigned long timestamp;
-};
-
 class Host {
     Network* network;
-    unsigned long localClock = 0;
+    std::unordered_map<Address, unsigned long> view;
+    std::unordered_map<Address, unsigned long> lastUpdated;
     unsigned long heartbeat = 0;
-    std::vector<HostListEntry> hostsList;
     bool joined = false;
     bool failed = false;
 
     void receiveJOINREQ(Message msg);
     void receiveJOINREP(Message msg);
     void receiveGOSSIP(Message msg);
-    void updateLocalList(std::vector<HostListEntry> hostsList);
-    void updateLocalList(Address addr, unsigned long heartbeat);
-    void updateLocalList(HostListEntry hostsList);
-    HostListEntry* findEntry(Address addr);
-    void insertEntry(HostListEntry entry);
-    void insertEntry(Address addr, unsigned long heartbeat);
+    void updateView(const std::unordered_map<Address, unsigned long>& view);
+    void updateViewEntry(Address addr, unsigned long heartbeat);
     void sendMessage(Address to, MessageType msgType);
 
    public:

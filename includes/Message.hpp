@@ -1,18 +1,18 @@
 #pragma once
 
-#include <vector>
+#include <unordered_map>
 
-#include "Host.hpp"
 #include "Address.hpp"
 
-struct HostListEntry;
-
 enum class MessageType { JOINREQ, JOINREP, GOSSIP };
+
+struct MessagePayload {
+    std::unordered_map<Address, unsigned long> view;
+};
 
 struct Message {
     Address from;
     Address to;
     MessageType msgType;
-    unsigned long heartbeat;
-    std::vector<HostListEntry> hostsList;
+    MessagePayload payload;
 };
