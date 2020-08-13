@@ -14,7 +14,7 @@ Host::Host(Address addr, Network* network) {
     this->network->connect(this->addr, this);
 
     // Add yourself to the list
-    updateViewEntry(this->addr, this->heartbeat);
+    updateViewEntry(this->addr, 1);
 }
 
 Host::Host(Address addr, Network* network, Address introducerAddr)
@@ -68,9 +68,6 @@ void Host::updateView(const std::unordered_map<Address, unsigned long>& view) {
 
         // Find and update/insert the entry
         updateViewEntry(addr, receivedHeartbeat);
-
-        std::cout << addr << " " << this->view[addr] << " "
-                  << this->lastUpdated[addr] << std::endl;
     }
 }
 
@@ -80,6 +77,7 @@ void Host::updateViewEntry(Address addr, unsigned long heartbeat) {
     if (this->view[addr] < heartbeat) {
         this->view[addr] = heartbeat;
         this->lastUpdated[addr] = this->heartbeat;
+        this->failures[addr] = false;
     }
 }
 
@@ -88,10 +86,32 @@ void Host::processLoop() {
     this->heartbeat++;
     updateViewEntry(this->addr, this->heartbeat);
 
+    detectFailures();
+
     if (this->failed) return;
 
-    // Send gossip
     sendGossip();
+}
+
+void Host::detectFailures() {
+    auto it = this->lastUpdated.begin();
+    while (it != this->lastUpdated.end()) {
+        unsigned long diff = this->heartbeat - it->second;
+        if (diff > Config::T_FAIL) {
+            this->failures[it->first] = true;
+        }
+
+        if (diff > Config::T_DELETE) {
+            this->view.erase(it->first);
+            this->failures.erase(it->first);
+            it = this->lastUpdated.erase(it);
+
+            printf("[%s] Deleted %s from view\n", this->addr.c_str(),
+                   it->first.c_str());
+        } else {
+            ++it;
+        }
+    }
 }
 
 void Host::sendGossip() {
@@ -108,7 +128,21 @@ void Host::sendMessage(Address to, MessageType msgType) {
     msg.from = this->addr;
     msg.to = to;
     msg.msgType = msgType;
-    msg.payload.view = this->view;
+    msg.payload.view = getViewToSend();
 
     this->network->routeMessage(msg);
+}
+
+std::unordered_map<Address, unsigned long> Host::getViewToSend() {
+    std::unordered_map<Address, unsigned long> viewToSend;
+
+    for (auto& entry : this->failures) {
+        Address addr = entry.first;
+        bool failed = entry.second;
+        if (!failed) {
+            viewToSend[addr] = this->view[addr];
+        }
+    }
+
+    return viewToSend;
 }

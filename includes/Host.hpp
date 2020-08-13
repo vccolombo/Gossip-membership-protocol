@@ -12,6 +12,7 @@ class Host {
     Network* network;
     std::unordered_map<Address, unsigned long> view;
     std::unordered_map<Address, unsigned long> lastUpdated;
+    std::unordered_map<Address, bool> failures;
     unsigned long heartbeat = 0;
 
     void receiveJOINREQ(Message msg);
@@ -19,8 +20,10 @@ class Host {
     void receiveGOSSIP(Message msg);
     void updateView(const std::unordered_map<Address, unsigned long>& view);
     void updateViewEntry(Address addr, unsigned long heartbeat);
+    void detectFailures();
     void sendGossip();
     void sendMessage(Address to, MessageType msgType);
+    std::unordered_map<Address, unsigned long> getViewToSend();
 
    public:
     Address addr;
