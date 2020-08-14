@@ -23,6 +23,8 @@ Host::Host(Address addr, Network* network, Address introducerAddr)
 }
 
 void Host::receiveMessage(Message msg) {
+    if (this->failed) return;
+
     if (msg.msgType == MessageType::JOINREQ) {
         receiveJOINREQ(msg);
     }
@@ -82,13 +84,13 @@ void Host::updateViewEntry(Address addr, unsigned long heartbeat) {
 }
 
 void Host::processLoop() {
+    if (this->failed) return;
+
     // Update own view entry
     this->heartbeat++;
     updateViewEntry(this->addr, this->heartbeat);
 
     detectFailures();
-
-    if (this->failed) return;
 
     sendGossip();
 }

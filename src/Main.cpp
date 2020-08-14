@@ -6,6 +6,7 @@
 #include "Config.hpp"
 #include "Host.hpp"
 #include "Network.hpp"
+#include "RandomUtil.hpp"
 
 int main() {
     Network* network = new Network();
@@ -39,6 +40,15 @@ int main() {
         network->dispatchMessages();
 
         for (auto& host : hosts) {
+            if (cycle == Config::NUMBER_OF_LOOPS / 2) {
+                if (RandomUtil::randomFloat(0.0, 1.0) >
+                    Config::FAILURE_CHANCE) {
+                    std::cout << "Host " << host->addr << " failed"
+                              << "\n";
+                    host->failed = true;
+                }
+            }
+
             host->processLoop();
         }
 
