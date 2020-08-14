@@ -1,9 +1,7 @@
 #include "Host.hpp"
-// std::max
-#include <cstdio>
-#include <iostream>
 
 #include "Config.hpp"
+#include "Log.hpp"
 #include "Message.hpp"
 #include "RandomUtil.hpp"
 
@@ -37,8 +35,8 @@ void Host::receiveMessage(Message msg) {
 }
 
 void Host::receiveJOINREQ(Message msg) {
-    printf("[%s] JOINREQ received from %s\n", this->addr.c_str(),
-           msg.from.c_str());
+    Log::getInstance()->write(this->addr + " JOINREQ received from " +
+                              msg.from);
 
     updateView(msg.payload.view);
 
@@ -46,15 +44,14 @@ void Host::receiveJOINREQ(Message msg) {
 }
 
 void Host::receiveJOINREP(Message msg) {
-    printf("[%s] JOINREP received from %s\n", this->addr.c_str(),
-           msg.from.c_str());
+    Log::getInstance()->write(this->addr + " JOINREP received from " +
+                              msg.from);
 
     updateView(msg.payload.view);
 }
 
 void Host::receiveGOSSIP(Message msg) {
-    printf("[%s] GOSSIP received from %s\n", this->addr.c_str(),
-           msg.from.c_str());
+    Log::getInstance()->write(this->addr + " GOSSIP received from " + msg.from);
 
     updateView(msg.payload.view);
 }
@@ -108,8 +105,8 @@ void Host::detectFailures() {
             this->failures.erase(it->first);
             it = this->lastUpdated.erase(it);
 
-            printf("[%s] Deleted %s from view\n", this->addr.c_str(),
-                   it->first.c_str());
+            Log::getInstance()->write(this->addr + " Deleted " + it->first +
+                                      " from view");
         } else {
             ++it;
         }

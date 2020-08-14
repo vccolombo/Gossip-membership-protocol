@@ -1,10 +1,9 @@
-#include <cstdio>
 #include <fstream>
-#include <iostream>
 #include <vector>
 
 #include "Config.hpp"
 #include "Host.hpp"
+#include "Log.hpp"
 #include "Network.hpp"
 #include "RandomUtil.hpp"
 
@@ -35,24 +34,20 @@ int main() {
     }
 
     for (size_t cycle = 1; cycle <= Config::NUMBER_OF_LOOPS; cycle++) {
-        std::cout << "Cycle " << cycle << std::endl;
+        Log::getInstance()->write("Starting cycle " + std::to_string(cycle));
 
         network->dispatchMessages();
 
         for (auto& host : hosts) {
             if (cycle == Config::NUMBER_OF_LOOPS / 2) {
-                if (RandomUtil::randomFloat(0.0, 1.0) >
-                    Config::FAILURE_CHANCE) {
-                    std::cout << "Host " << host->addr << " failed"
-                              << "\n";
+                if (RandomUtil::randomFloat(0., 1.) > Config::FAILURE_CHANCE) {
+                    Log::getInstance()->write("Host " + host->addr + " failed");
                     host->failed = true;
                 }
             }
 
             host->processLoop();
         }
-
-        std::cout << std::endl;
     }
 
     for (auto& host : hosts) {
