@@ -40,7 +40,7 @@ int main() {
 
         for (auto& host : hosts) {
             if (round == Config::NUMBER_OF_ROUNDS / 2) {
-                if (RandomUtil::randomFloat(0., 1.) >
+                if (RandomUtil::randomFloat(0., 1.) <
                     Config::HOST_FAILURE_CHANCE) {
                     Log::getInstance()->write("Host " + host->addr + " failed");
                     host->failed = true;
