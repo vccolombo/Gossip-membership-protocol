@@ -101,12 +101,11 @@ void Host::detectFailures() {
         }
 
         if (diff > Config::T_DELETE) {
+            Log::getInstance()->write(this->addr + " Deleted " + it->first +
+                                      " from view");
             this->view.erase(it->first);
             this->failures.erase(it->first);
             it = this->lastUpdated.erase(it);
-
-            Log::getInstance()->write(this->addr + " Deleted " + it->first +
-                                      " from view");
         } else {
             ++it;
         }
