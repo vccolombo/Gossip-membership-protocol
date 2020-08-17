@@ -40,7 +40,8 @@ int main() {
 
         for (auto& host : hosts) {
             if (cycle == Config::NUMBER_OF_LOOPS / 2) {
-                if (RandomUtil::randomFloat(0., 1.) > Config::FAILURE_CHANCE) {
+                if (RandomUtil::randomFloat(0., 1.) >
+                    Config::HOST_FAILURE_CHANCE) {
                     Log::getInstance()->write("Host " + host->addr + " failed");
                     host->failed = true;
                 }
@@ -49,6 +50,8 @@ int main() {
             host->processLoop();
         }
     }
+
+    Log::getInstance()->write("Ending simulation");
 
     for (auto& host : hosts) {
         delete host;
