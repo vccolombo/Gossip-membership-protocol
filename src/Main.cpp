@@ -33,13 +33,13 @@ int main() {
         testFile.close();
     }
 
-    for (size_t cycle = 1; cycle <= Config::NUMBER_OF_LOOPS; cycle++) {
-        Log::getInstance()->write("Starting cycle " + std::to_string(cycle));
+    for (size_t round = 1; round <= Config::NUMBER_OF_ROUNDS; round++) {
+        Log::getInstance()->write("Starting round " + std::to_string(round));
 
         network->dispatchMessages();
 
         for (auto& host : hosts) {
-            if (cycle == Config::NUMBER_OF_LOOPS / 2) {
+            if (round == Config::NUMBER_OF_ROUNDS / 2) {
                 if (RandomUtil::randomFloat(0., 1.) >
                     Config::HOST_FAILURE_CHANCE) {
                     Log::getInstance()->write("Host " + host->addr + " failed");

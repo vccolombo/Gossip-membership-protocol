@@ -8,7 +8,7 @@ class Config {
    public:
     inline static const std::string TEST_FILE = "../tests/large.txt";
     inline static const std::string LOG_FILE = "../logs/large.log";
-    inline static const unsigned int NUMBER_OF_LOOPS = 1000;
+    inline static const unsigned int NUMBER_OF_ROUNDS = 100;
     inline static const unsigned int T_FAIL = 10;
     inline static const unsigned int T_DELETE = 20;
     inline static const float HOST_FAILURE_CHANCE = 0.5;

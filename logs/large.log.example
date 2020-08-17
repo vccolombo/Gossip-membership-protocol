@@ -1,4 +1,4 @@
-Starting cycle 1
+Starting round 1
 192.168.0.10 JOINREQ received from 192.168.0.11
 192.168.0.10 JOINREQ received from 192.168.0.12
 192.168.0.10 JOINREQ received from 192.168.0.13
@@ -35,896 +35,790 @@ Starting cycle 1
 192.168.1.17 JOINREP received from 192.168.1.10
 192.168.1.18 JOINREP received from 192.168.1.10
 192.168.1.19 JOINREP received from 192.168.0.10
-Starting cycle 2
-192.168.0.14 GOSSIP received from 192.168.0.10
-192.168.0.10 GOSSIP received from 192.168.0.11
-192.168.0.12 GOSSIP received from 192.168.0.13
-192.168.0.14 GOSSIP received from 192.168.0.14
-192.168.0.13 GOSSIP received from 192.168.0.15
-192.168.0.14 GOSSIP received from 192.168.0.16
-192.168.0.16 GOSSIP received from 192.168.0.17
-192.168.0.16 GOSSIP received from 192.168.0.18
-192.168.1.12 GOSSIP received from 192.168.1.12
-192.168.0.19 GOSSIP received from 192.168.1.13
-192.168.1.17 GOSSIP received from 192.168.1.18
-Starting cycle 3
-192.168.0.11 GOSSIP received from 192.168.0.11
-192.168.0.12 GOSSIP received from 192.168.0.13
-192.168.0.14 GOSSIP received from 192.168.0.15
-192.168.0.15 GOSSIP received from 192.168.0.17
-192.168.0.10 GOSSIP received from 192.168.0.18
-192.168.1.11 GOSSIP received from 192.168.0.19
-192.168.1.12 GOSSIP received from 192.168.1.12
-192.168.1.10 GOSSIP received from 192.168.1.13
-192.168.1.10 GOSSIP received from 192.168.1.14
-192.168.1.13 GOSSIP received from 192.168.1.16
-192.168.1.17 GOSSIP received from 192.168.1.18
-Starting cycle 4
-192.168.0.18 GOSSIP received from 192.168.0.10
-192.168.0.10 GOSSIP received from 192.168.0.11
-192.168.0.13 GOSSIP received from 192.168.0.12
-192.168.0.15 GOSSIP received from 192.168.0.15
-192.168.0.13 GOSSIP received from 192.168.0.16
-192.168.0.17 GOSSIP received from 192.168.0.17
-192.168.0.19 GOSSIP received from 192.168.1.15
-192.168.1.15 GOSSIP received from 192.168.1.16
-192.168.1.12 GOSSIP received from 192.168.1.17
-192.168.1.11 GOSSIP received from 192.168.1.18
-Starting cycle 5
-192.168.0.13 GOSSIP received from 192.168.0.10
-192.168.1.18 GOSSIP received from 192.168.1.10
-192.168.0.14 GOSSIP received from 192.168.0.12
-192.168.0.10 GOSSIP received from 192.168.0.13
-192.168.0.13 GOSSIP received from 192.168.0.14
-192.168.0.19 GOSSIP received from 192.168.0.19
-192.168.1.18 GOSSIP received from 192.168.1.12
-192.168.1.12 GOSSIP received from 192.168.1.13
-192.168.0.19 GOSSIP received from 192.168.1.14
-192.168.1.11 GOSSIP received from 192.168.1.15
-192.168.1.11 GOSSIP received from 192.168.1.17
-192.168.1.12 GOSSIP received from 192.168.1.18
-Starting cycle 6
-192.168.1.15 GOSSIP received from 192.168.1.10
-192.168.0.11 GOSSIP received from 192.168.0.11
-192.168.0.11 GOSSIP received from 192.168.0.12
-192.168.1.19 GOSSIP received from 192.168.0.14
-192.168.0.13 GOSSIP received from 192.168.0.16
-192.168.0.17 GOSSIP received from 192.168.0.17
-192.168.0.19 GOSSIP received from 192.168.0.19
-192.168.1.11 GOSSIP received from 192.168.1.13
-192.168.1.10 GOSSIP received from 192.168.1.14
-192.168.0.19 GOSSIP received from 192.168.1.15
-192.168.1.14 GOSSIP received from 192.168.1.16
-192.168.1.16 GOSSIP received from 192.168.1.17
-192.168.0.12 GOSSIP received from 192.168.1.19
-Starting cycle 7
-192.168.1.19 GOSSIP received from 192.168.0.10
-192.168.0.19 GOSSIP received from 192.168.1.10
-192.168.0.10 GOSSIP received from 192.168.0.13
-192.168.0.16 GOSSIP received from 192.168.0.15
-192.168.0.12 GOSSIP received from 192.168.0.18
-192.168.1.13 GOSSIP received from 192.168.0.19
-192.168.1.11 GOSSIP received from 192.168.1.12
-192.168.1.13 GOSSIP received from 192.168.1.14
-192.168.0.17 GOSSIP received from 192.168.1.19
-Starting cycle 8
-192.168.0.12 GOSSIP received from 192.168.0.10
-192.168.0.14 GOSSIP received from 192.168.0.11
-192.168.0.18 GOSSIP received from 192.168.0.13
-192.168.0.17 GOSSIP received from 192.168.0.16
-192.168.1.17 GOSSIP received from 192.168.1.11
-192.168.0.19 GOSSIP received from 192.168.1.12
-192.168.1.14 GOSSIP received from 192.168.1.15
-Starting cycle 9
-192.168.0.14 GOSSIP received from 192.168.0.11
-192.168.1.19 GOSSIP received from 192.168.0.12
-192.168.0.17 GOSSIP received from 192.168.0.13
-192.168.0.18 GOSSIP received from 192.168.0.14
-192.168.0.10 GOSSIP received from 192.168.0.16
-192.168.0.17 GOSSIP received from 192.168.0.18
-192.168.1.13 GOSSIP received from 192.168.1.12
-192.168.1.10 GOSSIP received from 192.168.1.13
-192.168.1.11 GOSSIP received from 192.168.1.14
-192.168.1.13 GOSSIP received from 192.168.1.16
-192.168.1.18 GOSSIP received from 192.168.1.17
-192.168.1.13 GOSSIP received from 192.168.1.18
-192.168.0.17 GOSSIP received from 192.168.1.19
-Starting cycle 10
-192.168.0.14 GOSSIP received from 192.168.0.10
-192.168.0.11 GOSSIP received from 192.168.0.17
-192.168.1.15 GOSSIP received from 192.168.0.19
-192.168.1.14 GOSSIP received from 192.168.1.11
-192.168.1.12 GOSSIP received from 192.168.1.13
-192.168.1.18 GOSSIP received from 192.168.1.14
-192.168.1.18 GOSSIP received from 192.168.1.15
-192.168.1.17 GOSSIP received from 192.168.1.16
-192.168.0.19 GOSSIP received from 192.168.1.17
-192.168.0.19 GOSSIP received from 192.168.1.18
-192.168.1.19 GOSSIP received from 192.168.1.19
-Starting cycle 11
-192.168.1.11 GOSSIP received from 192.168.1.10
-192.168.0.16 GOSSIP received from 192.168.0.15
-192.168.0.17 GOSSIP received from 192.168.0.18
-192.168.1.15 GOSSIP received from 192.168.0.19
-192.168.1.14 GOSSIP received from 192.168.1.11
-192.168.1.16 GOSSIP received from 192.168.1.15
-192.168.1.15 GOSSIP received from 192.168.1.16
-192.168.1.11 GOSSIP received from 192.168.1.17
-192.168.0.13 GOSSIP received from 192.168.1.19
-Starting cycle 12
-192.168.1.19 GOSSIP received from 192.168.0.10
-192.168.0.13 GOSSIP received from 192.168.0.11
-192.168.0.11 GOSSIP received from 192.168.0.16
-192.168.0.10 GOSSIP received from 192.168.0.17
-192.168.0.15 GOSSIP received from 192.168.0.18
-192.168.0.19 GOSSIP received from 192.168.1.11
-192.168.0.19 GOSSIP received from 192.168.1.12
-192.168.1.14 GOSSIP received from 192.168.1.13
-Starting cycle 13
-192.168.1.18 GOSSIP received from 192.168.1.10
-192.168.1.19 GOSSIP received from 192.168.0.13
-192.168.0.14 GOSSIP received from 192.168.0.16
-192.168.1.19 GOSSIP received from 192.168.0.17
-192.168.1.10 GOSSIP received from 192.168.1.11
-192.168.1.16 GOSSIP received from 192.168.1.13
-192.168.1.15 GOSSIP received from 192.168.1.14
-192.168.1.13 GOSSIP received from 192.168.1.16
-192.168.1.11 GOSSIP received from 192.168.1.17
-Starting cycle 14
-192.168.0.17 GOSSIP received from 192.168.0.10
-192.168.0.11 GOSSIP received from 192.168.0.11
+Starting round 2
 192.168.0.10 GOSSIP received from 192.168.0.12
-192.168.0.10 GOSSIP received from 192.168.0.13
-192.168.0.14 GOSSIP received from 192.168.0.14
-192.168.0.15 GOSSIP received from 192.168.0.15
-192.168.0.12 GOSSIP received from 192.168.0.17
-192.168.1.19 GOSSIP received from 192.168.0.18
-192.168.1.15 GOSSIP received from 192.168.0.19
-192.168.1.16 GOSSIP received from 192.168.1.12
-192.168.1.15 GOSSIP received from 192.168.1.15
-192.168.1.15 GOSSIP received from 192.168.1.17
-Starting cycle 15
-192.168.0.14 GOSSIP received from 192.168.0.10
-192.168.1.11 GOSSIP received from 192.168.1.10
-192.168.0.10 GOSSIP received from 192.168.0.11
-192.168.0.16 GOSSIP received from 192.168.0.12
-192.168.0.10 GOSSIP received from 192.168.0.14
-192.168.0.15 GOSSIP received from 192.168.0.15
-192.168.1.13 GOSSIP received from 192.168.0.19
-192.168.1.11 GOSSIP received from 192.168.1.12
-192.168.1.10 GOSSIP received from 192.168.1.14
-192.168.1.12 GOSSIP received from 192.168.1.16
-192.168.1.10 GOSSIP received from 192.168.1.17
-Starting cycle 16
-192.168.0.16 GOSSIP received from 192.168.0.10
-192.168.0.15 GOSSIP received from 192.168.0.12
-192.168.0.11 GOSSIP received from 192.168.0.13
 192.168.0.12 GOSSIP received from 192.168.0.15
-192.168.0.16 GOSSIP received from 192.168.0.16
-192.168.0.10 GOSSIP received from 192.168.0.17
-192.168.0.17 GOSSIP received from 192.168.0.18
-192.168.0.19 GOSSIP received from 192.168.0.19
-192.168.1.18 GOSSIP received from 192.168.1.12
-192.168.1.13 GOSSIP received from 192.168.1.16
-192.168.0.19 GOSSIP received from 192.168.1.17
-192.168.0.15 GOSSIP received from 192.168.1.19
-Starting cycle 17
-192.168.1.11 GOSSIP received from 192.168.1.10
-192.168.1.19 GOSSIP received from 192.168.0.12
-192.168.0.15 GOSSIP received from 192.168.0.17
-192.168.1.10 GOSSIP received from 192.168.1.11
-192.168.0.19 GOSSIP received from 192.168.1.12
-192.168.1.14 GOSSIP received from 192.168.1.13
-192.168.1.12 GOSSIP received from 192.168.1.14
-192.168.1.18 GOSSIP received from 192.168.1.15
-192.168.1.15 GOSSIP received from 192.168.1.16
-Starting cycle 18
-192.168.1.19 GOSSIP received from 192.168.0.11
-192.168.0.14 GOSSIP received from 192.168.0.13
-192.168.0.14 GOSSIP received from 192.168.0.16
-192.168.1.16 GOSSIP received from 192.168.0.19
-192.168.1.15 GOSSIP received from 192.168.1.12
-192.168.1.14 GOSSIP received from 192.168.1.18
-Starting cycle 19
-192.168.0.14 GOSSIP received from 192.168.0.12
-192.168.0.10 GOSSIP received from 192.168.0.13
-192.168.1.19 GOSSIP received from 192.168.0.16
-192.168.1.16 GOSSIP received from 192.168.0.19
-192.168.1.12 GOSSIP received from 192.168.1.13
-192.168.1.16 GOSSIP received from 192.168.1.14
-192.168.0.19 GOSSIP received from 192.168.1.16
-192.168.0.19 GOSSIP received from 192.168.1.18
-Starting cycle 20
-192.168.0.12 GOSSIP received from 192.168.0.10
-192.168.1.18 GOSSIP received from 192.168.1.10
-192.168.0.14 GOSSIP received from 192.168.0.12
-192.168.0.17 GOSSIP received from 192.168.0.16
+192.168.0.12 GOSSIP received from 192.168.0.16
 192.168.0.13 GOSSIP received from 192.168.0.18
-192.168.0.19 GOSSIP received from 192.168.1.11
-192.168.1.17 GOSSIP received from 192.168.1.13
-192.168.1.12 GOSSIP received from 192.168.1.14
-192.168.0.19 GOSSIP received from 192.168.1.15
-192.168.0.14 GOSSIP received from 192.168.1.19
-Starting cycle 21
-192.168.0.18 GOSSIP received from 192.168.0.10
-192.168.0.15 GOSSIP received from 192.168.0.13
-192.168.0.10 GOSSIP received from 192.168.0.14
-192.168.0.14 GOSSIP received from 192.168.0.15
-192.168.0.18 GOSSIP received from 192.168.0.16
-192.168.0.15 GOSSIP received from 192.168.0.17
-192.168.0.15 GOSSIP received from 192.168.0.18
-192.168.1.10 GOSSIP received from 192.168.0.19
-192.168.1.16 GOSSIP received from 192.168.1.11
-192.168.1.18 GOSSIP received from 192.168.1.12
-192.168.1.13 GOSSIP received from 192.168.1.13
-192.168.1.18 GOSSIP received from 192.168.1.14
-192.168.0.10 GOSSIP received from 192.168.1.19
-Starting cycle 22
-192.168.0.17 GOSSIP received from 192.168.0.11
-192.168.0.18 GOSSIP received from 192.168.0.15
-192.168.1.19 GOSSIP received from 192.168.0.16
-192.168.0.17 GOSSIP received from 192.168.0.17
-192.168.0.18 GOSSIP received from 192.168.0.18
-192.168.1.13 GOSSIP received from 192.168.1.13
-192.168.1.12 GOSSIP received from 192.168.1.14
-192.168.1.17 GOSSIP received from 192.168.1.16
-192.168.0.14 GOSSIP received from 192.168.1.19
-Starting cycle 23
-192.168.0.14 GOSSIP received from 192.168.0.10
-192.168.0.17 GOSSIP received from 192.168.0.11
-192.168.0.10 GOSSIP received from 192.168.0.13
-192.168.0.13 GOSSIP received from 192.168.0.15
-192.168.1.19 GOSSIP received from 192.168.0.16
-192.168.0.14 GOSSIP received from 192.168.0.18
-192.168.1.17 GOSSIP received from 192.168.0.19
-192.168.1.14 GOSSIP received from 192.168.1.13
-192.168.0.19 GOSSIP received from 192.168.1.16
-192.168.1.14 GOSSIP received from 192.168.1.17
-192.168.1.11 GOSSIP received from 192.168.1.18
-Starting cycle 24
-192.168.0.15 GOSSIP received from 192.168.0.11
-192.168.0.17 GOSSIP received from 192.168.0.13
-192.168.0.12 GOSSIP received from 192.168.0.15
-192.168.0.18 GOSSIP received from 192.168.0.18
-192.168.1.14 GOSSIP received from 192.168.0.19
-192.168.1.15 GOSSIP received from 192.168.1.12
-192.168.1.10 GOSSIP received from 192.168.1.15
-192.168.1.10 GOSSIP received from 192.168.1.17
-Starting cycle 25
-192.168.0.16 GOSSIP received from 192.168.0.11
-192.168.0.18 GOSSIP received from 192.168.0.12
-192.168.0.13 GOSSIP received from 192.168.0.13
-192.168.0.12 GOSSIP received from 192.168.0.15
-192.168.0.18 GOSSIP received from 192.168.0.16
-192.168.1.17 GOSSIP received from 192.168.1.13
-192.168.1.11 GOSSIP received from 192.168.1.15
-192.168.1.15 GOSSIP received from 192.168.1.16
-Starting cycle 26
-192.168.0.12 GOSSIP received from 192.168.0.10
-192.168.1.13 GOSSIP received from 192.168.1.10
-192.168.0.11 GOSSIP received from 192.168.0.12
-192.168.0.17 GOSSIP received from 192.168.0.15
-192.168.0.16 GOSSIP received from 192.168.0.18
-192.168.1.15 GOSSIP received from 192.168.0.19
-192.168.1.14 GOSSIP received from 192.168.1.11
-192.168.1.13 GOSSIP received from 192.168.1.13
-192.168.1.14 GOSSIP received from 192.168.1.14
-192.168.1.15 GOSSIP received from 192.168.1.15
-192.168.0.19 GOSSIP received from 192.168.1.17
-192.168.1.15 GOSSIP received from 192.168.1.18
-192.168.0.10 GOSSIP received from 192.168.1.19
-Starting cycle 27
-192.168.0.10 GOSSIP received from 192.168.0.10
-192.168.1.12 GOSSIP received from 192.168.1.10
-192.168.0.12 GOSSIP received from 192.168.0.11
-192.168.0.17 GOSSIP received from 192.168.0.13
-192.168.0.16 GOSSIP received from 192.168.0.14
-192.168.0.11 GOSSIP received from 192.168.0.15
-192.168.1.17 GOSSIP received from 192.168.1.13
-192.168.1.11 GOSSIP received from 192.168.1.15
-192.168.1.16 GOSSIP received from 192.168.1.16
-Starting cycle 28
-192.168.1.13 GOSSIP received from 192.168.1.10
-192.168.0.16 GOSSIP received from 192.168.0.11
-192.168.1.19 GOSSIP received from 192.168.0.16
-192.168.0.14 GOSSIP received from 192.168.0.18
-192.168.1.13 GOSSIP received from 192.168.0.19
-192.168.1.13 GOSSIP received from 192.168.1.11
-192.168.1.12 GOSSIP received from 192.168.1.12
-192.168.1.10 GOSSIP received from 192.168.1.13
-Starting cycle 29
-192.168.0.15 GOSSIP received from 192.168.0.10
-192.168.1.11 GOSSIP received from 192.168.1.10
-192.168.0.14 GOSSIP received from 192.168.0.11
-192.168.0.14 GOSSIP received from 192.168.0.14
-192.168.1.19 GOSSIP received from 192.168.0.16
-192.168.0.17 GOSSIP received from 192.168.0.17
-192.168.0.11 GOSSIP received from 192.168.0.18
-192.168.1.13 GOSSIP received from 192.168.0.19
-192.168.0.19 GOSSIP received from 192.168.1.11
-192.168.0.19 GOSSIP received from 192.168.1.13
-192.168.1.10 GOSSIP received from 192.168.1.15
-192.168.0.19 GOSSIP received from 192.168.1.16
-192.168.0.18 GOSSIP received from 192.168.1.19
-Starting cycle 30
-192.168.0.13 GOSSIP received from 192.168.0.10
-192.168.0.11 GOSSIP received from 192.168.0.11
-192.168.0.10 GOSSIP received from 192.168.0.12
-192.168.0.12 GOSSIP received from 192.168.0.15
-192.168.1.19 GOSSIP received from 192.168.0.16
-192.168.0.12 GOSSIP received from 192.168.0.18
-192.168.1.13 GOSSIP received from 192.168.1.13
-192.168.1.11 GOSSIP received from 192.168.1.14
-192.168.1.18 GOSSIP received from 192.168.1.15
-192.168.1.13 GOSSIP received from 192.168.1.16
-192.168.1.16 GOSSIP received from 192.168.1.17
-192.168.1.16 GOSSIP received from 192.168.1.18
-192.168.0.16 GOSSIP received from 192.168.1.19
-Starting cycle 31
-192.168.1.19 GOSSIP received from 192.168.0.11
-192.168.0.12 GOSSIP received from 192.168.0.12
-192.168.0.16 GOSSIP received from 192.168.0.13
-192.168.0.16 GOSSIP received from 192.168.0.15
-192.168.0.12 GOSSIP received from 192.168.0.17
-192.168.1.13 GOSSIP received from 192.168.0.19
-192.168.1.15 GOSSIP received from 192.168.1.12
-192.168.1.10 GOSSIP received from 192.168.1.15
-192.168.1.11 GOSSIP received from 192.168.1.16
-Starting cycle 32
-192.168.0.10 GOSSIP received from 192.168.0.10
-192.168.0.10 GOSSIP received from 192.168.0.12
-192.168.0.17 GOSSIP received from 192.168.0.14
-192.168.0.10 GOSSIP received from 192.168.0.17
-192.168.0.11 GOSSIP received from 192.168.0.18
-192.168.1.12 GOSSIP received from 192.168.0.19
-192.168.1.10 GOSSIP received from 192.168.1.14
-192.168.1.15 GOSSIP received from 192.168.1.15
-192.168.1.11 GOSSIP received from 192.168.1.16
-192.168.1.15 GOSSIP received from 192.168.1.17
-192.168.1.10 GOSSIP received from 192.168.1.18
-Starting cycle 33
-192.168.0.16 GOSSIP received from 192.168.0.11
-192.168.1.19 GOSSIP received from 192.168.0.12
-192.168.0.17 GOSSIP received from 192.168.0.13
-192.168.0.12 GOSSIP received from 192.168.0.17
-192.168.1.10 GOSSIP received from 192.168.0.19
-192.168.1.11 GOSSIP received from 192.168.1.13
-192.168.0.19 GOSSIP received from 192.168.1.14
-192.168.1.10 GOSSIP received from 192.168.1.18
-192.168.0.11 GOSSIP received from 192.168.1.19
-Starting cycle 34
-192.168.0.14 GOSSIP received from 192.168.0.10
-192.168.0.13 GOSSIP received from 192.168.0.12
-192.168.0.16 GOSSIP received from 192.168.0.14
-192.168.0.16 GOSSIP received from 192.168.0.16
-192.168.0.10 GOSSIP received from 192.168.0.18
-192.168.1.12 GOSSIP received from 192.168.0.19
-192.168.1.17 GOSSIP received from 192.168.1.11
-192.168.1.12 GOSSIP received from 192.168.1.12
-192.168.1.18 GOSSIP received from 192.168.1.15
-192.168.0.15 GOSSIP received from 192.168.1.19
-Starting cycle 35
-192.168.0.14 GOSSIP received from 192.168.0.10
-192.168.0.12 GOSSIP received from 192.168.0.14
-192.168.0.15 GOSSIP received from 192.168.0.17
-192.168.0.13 GOSSIP received from 192.168.0.18
-192.168.1.12 GOSSIP received from 192.168.0.19
-192.168.1.11 GOSSIP received from 192.168.1.11
-192.168.1.11 GOSSIP received from 192.168.1.12
-192.168.1.17 GOSSIP received from 192.168.1.14
-192.168.1.10 GOSSIP received from 192.168.1.15
-192.168.1.15 GOSSIP received from 192.168.1.16
-192.168.1.12 GOSSIP received from 192.168.1.17
-192.168.0.17 GOSSIP received from 192.168.1.19
-Starting cycle 36
-192.168.0.18 GOSSIP received from 192.168.0.10
-192.168.1.19 GOSSIP received from 192.168.0.12
-192.168.0.15 GOSSIP received from 192.168.0.15
-192.168.0.13 GOSSIP received from 192.168.0.16
-192.168.0.14 GOSSIP received from 192.168.0.17
-192.168.1.11 GOSSIP received from 192.168.1.11
-192.168.1.13 GOSSIP received from 192.168.1.14
-192.168.1.11 GOSSIP received from 192.168.1.15
-192.168.1.14 GOSSIP received from 192.168.1.16
-192.168.1.11 GOSSIP received from 192.168.1.18
-192.168.0.17 GOSSIP received from 192.168.1.19
-Starting cycle 37
-192.168.0.14 GOSSIP received from 192.168.0.13
-192.168.0.10 GOSSIP received from 192.168.0.14
-192.168.0.18 GOSSIP received from 192.168.0.15
-192.168.0.19 GOSSIP received from 192.168.1.11
-192.168.1.14 GOSSIP received from 192.168.1.16
-192.168.1.18 GOSSIP received from 192.168.1.17
-192.168.1.17 GOSSIP received from 192.168.1.18
-192.168.0.12 GOSSIP received from 192.168.1.19
-Starting cycle 38
-192.168.0.12 GOSSIP received from 192.168.0.11
-192.168.0.12 GOSSIP received from 192.168.0.12
-192.168.0.18 GOSSIP received from 192.168.0.13
-192.168.0.12 GOSSIP received from 192.168.0.14
-192.168.0.18 GOSSIP received from 192.168.0.15
-192.168.0.10 GOSSIP received from 192.168.0.16
-192.168.0.17 GOSSIP received from 192.168.0.17
-192.168.1.14 GOSSIP received from 192.168.1.11
-192.168.1.13 GOSSIP received from 192.168.1.13
-192.168.1.14 GOSSIP received from 192.168.1.14
-192.168.1.10 GOSSIP received from 192.168.1.15
-192.168.0.19 GOSSIP received from 192.168.1.17
-192.168.0.19 GOSSIP received from 192.168.1.18
-Starting cycle 39
-192.168.0.14 GOSSIP received from 192.168.0.10
-192.168.0.19 GOSSIP received from 192.168.1.10
-192.168.0.14 GOSSIP received from 192.168.0.11
-192.168.0.14 GOSSIP received from 192.168.0.16
-192.168.1.17 GOSSIP received from 192.168.1.12
-192.168.1.10 GOSSIP received from 192.168.1.14
+192.168.0.19 GOSSIP received from 192.168.0.19
 192.168.1.12 GOSSIP received from 192.168.1.15
-Starting cycle 40
-192.168.0.12 GOSSIP received from 192.168.0.11
-192.168.0.12 GOSSIP received from 192.168.0.12
-192.168.0.17 GOSSIP received from 192.168.0.13
-192.168.0.16 GOSSIP received from 192.168.0.14
-192.168.0.11 GOSSIP received from 192.168.0.15
-192.168.0.15 GOSSIP received from 192.168.0.18
-192.168.1.13 GOSSIP received from 192.168.0.19
-192.168.1.11 GOSSIP received from 192.168.1.12
-192.168.1.14 GOSSIP received from 192.168.1.13
-192.168.1.16 GOSSIP received from 192.168.1.15
-192.168.1.18 GOSSIP received from 192.168.1.17
-192.168.1.14 GOSSIP received from 192.168.1.18
-Starting cycle 41
-192.168.1.10 GOSSIP received from 192.168.1.10
-192.168.0.12 GOSSIP received from 192.168.0.13
-192.168.0.17 GOSSIP received from 192.168.0.14
-192.168.0.18 GOSSIP received from 192.168.0.17
-192.168.1.11 GOSSIP received from 192.168.0.19
-192.168.1.10 GOSSIP received from 192.168.1.11
-192.168.1.15 GOSSIP received from 192.168.1.17
-192.168.1.16 Deleted 192.168.0.19 from view
-Starting cycle 42
-192.168.0.18 GOSSIP received from 192.168.0.10
-192.168.0.10 GOSSIP received from 192.168.0.11
-192.168.0.17 GOSSIP received from 192.168.0.12
-192.168.0.13 GOSSIP received from 192.168.0.14
-192.168.0.17 GOSSIP received from 192.168.0.15
-192.168.1.19 GOSSIP received from 192.168.0.16
+Starting round 3
+192.168.1.14 GOSSIP received from 192.168.1.10
+192.168.0.11 GOSSIP received from 192.168.0.13
+192.168.0.12 GOSSIP received from 192.168.0.14
 192.168.0.16 GOSSIP received from 192.168.0.17
-192.168.0.11 GOSSIP received from 192.168.0.18
-192.168.1.10 GOSSIP received from 192.168.1.12
-192.168.1.14 GOSSIP received from 192.168.1.16
-Starting cycle 43
-192.168.0.18 GOSSIP received from 192.168.0.10
-192.168.0.18 GOSSIP received from 192.168.0.12
-192.168.1.19 GOSSIP received from 192.168.0.13
-192.168.0.10 GOSSIP received from 192.168.0.14
-192.168.0.16 GOSSIP received from 192.168.0.16
-192.168.0.13 GOSSIP received from 192.168.0.17
-192.168.0.12 GOSSIP received from 192.168.0.18
-192.168.1.14 GOSSIP received from 192.168.1.12
-192.168.1.11 GOSSIP received from 192.168.1.14
-192.168.1.17 GOSSIP received from 192.168.1.17
-192.168.1.14 GOSSIP received from 192.168.1.18
-Starting cycle 44
-192.168.0.12 GOSSIP received from 192.168.0.10
-192.168.1.12 GOSSIP received from 192.168.1.10
-192.168.0.12 GOSSIP received from 192.168.0.11
-192.168.0.15 GOSSIP received from 192.168.0.12
-192.168.0.12 GOSSIP received from 192.168.0.15
-192.168.1.19 GOSSIP received from 192.168.0.16
+192.168.1.10 GOSSIP received from 192.168.0.19
+192.168.1.10 GOSSIP received from 192.168.1.16
+Starting round 4
+192.168.0.15 GOSSIP received from 192.168.0.10
+192.168.1.15 GOSSIP received from 192.168.1.10
+192.168.0.11 GOSSIP received from 192.168.0.12
+192.168.0.10 GOSSIP received from 192.168.0.13
 192.168.0.11 GOSSIP received from 192.168.0.17
-192.168.1.19 GOSSIP received from 192.168.0.18
-192.168.1.11 GOSSIP received from 192.168.0.19
-192.168.1.10 GOSSIP received from 192.168.1.11
-192.168.1.10 GOSSIP received from 192.168.1.13
-192.168.1.13 GOSSIP received from 192.168.1.14
-192.168.1.16 GOSSIP received from 192.168.1.18
-192.168.0.13 GOSSIP received from 192.168.1.19
-Starting cycle 45
+192.168.0.14 GOSSIP received from 192.168.0.18
+192.168.1.10 GOSSIP received from 192.168.0.19
+192.168.1.11 GOSSIP received from 192.168.1.11
+192.168.0.19 GOSSIP received from 192.168.1.13
+192.168.0.19 GOSSIP received from 192.168.1.15
+192.168.1.16 GOSSIP received from 192.168.1.17
+192.168.0.19 GOSSIP received from 192.168.1.18
+Starting round 5
 192.168.1.13 GOSSIP received from 192.168.1.10
-192.168.0.18 GOSSIP received from 192.168.0.11
-192.168.0.15 GOSSIP received from 192.168.0.14
-192.168.1.19 GOSSIP received from 192.168.0.16
-192.168.0.15 GOSSIP received from 192.168.0.18
-192.168.1.17 GOSSIP received from 192.168.1.15
-192.168.1.14 GOSSIP received from 192.168.1.17
-Starting cycle 46
-192.168.0.13 GOSSIP received from 192.168.0.10
-192.168.1.18 GOSSIP received from 192.168.1.10
-192.168.0.11 GOSSIP received from 192.168.0.11
+192.168.0.10 GOSSIP received from 192.168.0.11
+192.168.0.11 GOSSIP received from 192.168.0.14
+192.168.0.14 GOSSIP received from 192.168.0.16
+192.168.1.10 GOSSIP received from 192.168.1.11
+192.168.0.19 GOSSIP received from 192.168.1.12
+192.168.1.13 GOSSIP received from 192.168.1.13
+192.168.1.15 GOSSIP received from 192.168.1.14
+192.168.1.10 GOSSIP received from 192.168.1.17
+192.168.1.11 GOSSIP received from 192.168.1.18
+192.168.0.15 GOSSIP received from 192.168.1.19
+Starting round 6
+192.168.1.17 GOSSIP received from 192.168.1.10
+192.168.0.13 GOSSIP received from 192.168.0.13
 192.168.0.17 GOSSIP received from 192.168.0.17
-192.168.0.18 GOSSIP received from 192.168.0.18
+192.168.0.12 GOSSIP received from 192.168.0.18
 192.168.1.15 GOSSIP received from 192.168.1.11
 192.168.1.14 GOSSIP received from 192.168.1.12
-192.168.1.12 GOSSIP received from 192.168.1.14
-192.168.1.11 GOSSIP received from 192.168.1.15
-192.168.1.13 GOSSIP received from 192.168.1.16
-192.168.1.12 GOSSIP received from 192.168.1.18
-Starting cycle 47
-192.168.1.19 GOSSIP received from 192.168.0.10
-192.168.1.14 GOSSIP received from 192.168.1.10
-192.168.0.10 GOSSIP received from 192.168.0.13
-192.168.0.17 GOSSIP received from 192.168.0.14
-192.168.0.17 GOSSIP received from 192.168.0.16
-192.168.0.14 GOSSIP received from 192.168.0.17
-192.168.1.18 GOSSIP received from 192.168.1.11
-192.168.1.15 GOSSIP received from 192.168.1.13
-192.168.1.14 GOSSIP received from 192.168.1.18
-Starting cycle 48
-192.168.1.14 GOSSIP received from 192.168.1.10
-192.168.0.14 GOSSIP received from 192.168.0.13
-192.168.0.15 GOSSIP received from 192.168.0.16
-192.168.0.19 GOSSIP received from 192.168.1.14
-192.168.1.18 GOSSIP received from 192.168.1.16
-192.168.1.14 GOSSIP received from 192.168.1.17
-192.168.0.13 GOSSIP received from 192.168.1.19
-Starting cycle 49
-192.168.1.17 GOSSIP received from 192.168.1.10
-192.168.0.10 GOSSIP received from 192.168.0.12
-192.168.0.12 GOSSIP received from 192.168.0.15
-192.168.0.14 GOSSIP received from 192.168.0.16
-192.168.0.15 GOSSIP received from 192.168.0.17
-192.168.0.11 GOSSIP received from 192.168.0.18
-192.168.0.19 GOSSIP received from 192.168.1.12
-192.168.1.18 GOSSIP received from 192.168.1.13
-192.168.1.10 GOSSIP received from 192.168.1.15
-192.168.1.17 GOSSIP received from 192.168.1.17
-192.168.0.18 GOSSIP received from 192.168.1.19
-Starting cycle 50
+192.168.1.18 GOSSIP received from 192.168.1.14
+192.168.1.16 GOSSIP received from 192.168.1.16
+192.168.1.11 GOSSIP received from 192.168.1.17
+Starting round 7
+192.168.0.13 GOSSIP received from 192.168.0.10
+192.168.1.12 GOSSIP received from 192.168.1.10
 192.168.0.10 GOSSIP received from 192.168.0.11
+192.168.0.12 GOSSIP received from 192.168.0.13
+192.168.0.12 GOSSIP received from 192.168.0.17
+192.168.0.12 GOSSIP received from 192.168.0.18
+192.168.0.19 GOSSIP received from 192.168.0.19
+192.168.1.11 GOSSIP received from 192.168.1.14
+192.168.1.14 GOSSIP received from 192.168.1.15
+192.168.1.11 GOSSIP received from 192.168.1.17
+192.168.0.19 GOSSIP received from 192.168.1.18
+Starting round 8
+192.168.0.18 GOSSIP received from 192.168.0.10
+192.168.0.10 GOSSIP received from 192.168.0.13
+192.168.0.10 GOSSIP received from 192.168.0.14
+192.168.1.10 GOSSIP received from 192.168.0.19
+192.168.1.10 GOSSIP received from 192.168.1.13
+192.168.1.14 GOSSIP received from 192.168.1.15
+192.168.0.19 GOSSIP received from 192.168.1.16
+192.168.1.11 GOSSIP received from 192.168.1.17
+192.168.1.13 GOSSIP received from 192.168.1.18
+192.168.0.13 GOSSIP received from 192.168.1.19
+Starting round 9
+192.168.1.19 GOSSIP received from 192.168.0.10
+192.168.0.15 GOSSIP received from 192.168.0.12
+192.168.0.10 GOSSIP received from 192.168.0.14
+192.168.0.13 GOSSIP received from 192.168.0.15
+192.168.0.14 GOSSIP received from 192.168.0.16
+192.168.1.10 GOSSIP received from 192.168.0.19
+192.168.1.12 GOSSIP received from 192.168.1.11
+192.168.1.16 GOSSIP received from 192.168.1.14
+192.168.1.10 GOSSIP received from 192.168.1.15
+192.168.1.17 GOSSIP received from 192.168.1.16
+192.168.1.16 GOSSIP received from 192.168.1.17
+Starting round 10
+192.168.0.13 GOSSIP received from 192.168.0.11
+192.168.0.16 GOSSIP received from 192.168.0.12
+192.168.0.17 GOSSIP received from 192.168.0.14
+192.168.0.14 GOSSIP received from 192.168.0.16
+192.168.0.13 GOSSIP received from 192.168.0.18
+192.168.1.18 GOSSIP received from 192.168.0.19
+192.168.0.19 GOSSIP received from 192.168.1.11
+192.168.1.14 GOSSIP received from 192.168.1.12
+192.168.1.17 GOSSIP received from 192.168.1.13
+192.168.0.19 GOSSIP received from 192.168.1.14
+192.168.1.16 GOSSIP received from 192.168.1.15
+192.168.1.11 GOSSIP received from 192.168.1.16
+192.168.1.16 GOSSIP received from 192.168.1.17
+192.168.1.15 GOSSIP received from 192.168.1.18
+Starting round 11
+192.168.1.12 GOSSIP received from 192.168.1.10
+192.168.0.11 GOSSIP received from 192.168.0.11
+192.168.0.14 GOSSIP received from 192.168.0.13
+192.168.0.18 GOSSIP received from 192.168.0.18
+192.168.1.18 GOSSIP received from 192.168.1.11
+192.168.0.19 GOSSIP received from 192.168.1.17
+Starting round 12
 192.168.0.13 GOSSIP received from 192.168.0.12
+192.168.0.14 GOSSIP received from 192.168.0.16
+192.168.0.10 GOSSIP received from 192.168.0.17
+192.168.1.17 GOSSIP received from 192.168.1.11
+192.168.1.13 GOSSIP received from 192.168.1.14
+192.168.1.17 GOSSIP received from 192.168.1.15
+192.168.1.18 GOSSIP received from 192.168.1.17
+192.168.0.10 GOSSIP received from 192.168.1.19
+Starting round 13
+192.168.0.12 GOSSIP received from 192.168.0.10
+192.168.1.14 GOSSIP received from 192.168.1.10
+192.168.0.17 GOSSIP received from 192.168.0.11
+192.168.0.16 GOSSIP received from 192.168.0.12
+192.168.0.16 GOSSIP received from 192.168.0.13
+192.168.0.16 GOSSIP received from 192.168.0.17
+192.168.1.15 GOSSIP received from 192.168.0.19
+192.168.1.13 GOSSIP received from 192.168.1.11
+192.168.1.10 GOSSIP received from 192.168.1.12
+192.168.1.16 GOSSIP received from 192.168.1.15
+192.168.1.16 GOSSIP received from 192.168.1.16
+192.168.1.14 GOSSIP received from 192.168.1.17
+192.168.1.15 GOSSIP received from 192.168.1.18
+Starting round 14
+192.168.0.16 GOSSIP received from 192.168.0.10
+192.168.1.10 GOSSIP received from 192.168.1.10
+192.168.0.10 GOSSIP received from 192.168.0.11
+192.168.0.14 GOSSIP received from 192.168.0.13
+192.168.1.19 GOSSIP received from 192.168.0.15
+192.168.1.19 GOSSIP received from 192.168.0.18
+192.168.0.19 GOSSIP received from 192.168.1.14
+192.168.1.17 GOSSIP received from 192.168.1.15
+192.168.1.12 GOSSIP received from 192.168.1.16
+192.168.1.17 GOSSIP received from 192.168.1.18
+192.168.0.18 GOSSIP received from 192.168.1.19
+Starting round 15
+192.168.0.19 GOSSIP received from 192.168.1.10
+192.168.0.13 GOSSIP received from 192.168.0.11
+192.168.0.15 GOSSIP received from 192.168.0.15
+192.168.0.10 GOSSIP received from 192.168.0.16
+192.168.0.14 GOSSIP received from 192.168.0.17
+192.168.0.10 GOSSIP received from 192.168.0.18
+192.168.1.14 GOSSIP received from 192.168.1.11
+192.168.0.19 GOSSIP received from 192.168.1.12
+192.168.1.14 GOSSIP received from 192.168.1.13
+192.168.1.11 GOSSIP received from 192.168.1.14
+192.168.1.16 GOSSIP received from 192.168.1.16
+192.168.0.18 GOSSIP received from 192.168.1.19
+Starting round 16
+192.168.1.13 GOSSIP received from 192.168.1.10
+192.168.0.17 GOSSIP received from 192.168.0.12
 192.168.0.11 GOSSIP received from 192.168.0.14
 192.168.0.16 GOSSIP received from 192.168.0.15
-192.168.0.15 GOSSIP received from 192.168.0.17
-192.168.1.15 GOSSIP received from 192.168.1.12
-192.168.1.16 GOSSIP received from 192.168.1.14
+192.168.0.19 GOSSIP received from 192.168.0.19
+192.168.1.14 GOSSIP received from 192.168.1.11
+192.168.1.15 GOSSIP received from 192.168.1.15
+192.168.0.19 GOSSIP received from 192.168.1.16
+192.168.1.15 GOSSIP received from 192.168.1.17
+192.168.1.14 GOSSIP received from 192.168.1.18
+Starting round 17
+192.168.0.11 GOSSIP received from 192.168.0.10
+192.168.0.13 GOSSIP received from 192.168.0.11
+192.168.0.10 GOSSIP received from 192.168.0.12
+192.168.0.10 GOSSIP received from 192.168.0.13
+192.168.0.14 GOSSIP received from 192.168.0.14
+192.168.0.15 GOSSIP received from 192.168.0.16
+192.168.0.12 GOSSIP received from 192.168.0.17
+192.168.0.17 GOSSIP received from 192.168.0.18
+192.168.1.13 GOSSIP received from 192.168.1.11
+192.168.1.11 GOSSIP received from 192.168.1.16
+192.168.0.11 GOSSIP received from 192.168.1.19
+Starting round 18
+192.168.0.14 GOSSIP received from 192.168.0.11
+192.168.0.15 GOSSIP received from 192.168.0.13
+192.168.0.15 GOSSIP received from 192.168.0.14
+192.168.1.19 GOSSIP received from 192.168.0.15
+192.168.0.14 GOSSIP received from 192.168.0.16
+192.168.1.14 GOSSIP received from 192.168.1.14
+192.168.1.17 GOSSIP received from 192.168.1.15
+Starting round 19
+192.168.0.13 GOSSIP received from 192.168.0.10
+192.168.0.11 GOSSIP received from 192.168.0.11
+192.168.0.14 GOSSIP received from 192.168.0.12
+192.168.0.16 GOSSIP received from 192.168.0.13
+192.168.0.17 GOSSIP received from 192.168.0.15
+192.168.1.15 GOSSIP received from 192.168.0.19
+192.168.1.14 GOSSIP received from 192.168.1.11
+192.168.1.12 GOSSIP received from 192.168.1.12
+192.168.1.17 GOSSIP received from 192.168.1.13
+192.168.1.17 GOSSIP received from 192.168.1.14
+192.168.1.18 GOSSIP received from 192.168.1.16
 192.168.0.19 GOSSIP received from 192.168.1.17
+192.168.1.10 GOSSIP received from 192.168.1.18
+192.168.0.10 GOSSIP received from 192.168.1.19
+Starting round 20
+192.168.0.10 GOSSIP received from 192.168.0.10
+192.168.1.17 GOSSIP received from 192.168.1.10
+192.168.0.14 GOSSIP received from 192.168.0.11
+192.168.0.10 GOSSIP received from 192.168.0.12
+192.168.0.14 GOSSIP received from 192.168.0.15
+192.168.0.19 GOSSIP received from 192.168.1.11
+192.168.1.16 GOSSIP received from 192.168.1.13
+192.168.1.15 GOSSIP received from 192.168.1.14
+192.168.1.11 GOSSIP received from 192.168.1.16
+192.168.1.11 GOSSIP received from 192.168.1.17
+Starting round 21
+192.168.0.11 GOSSIP received from 192.168.0.12
+192.168.0.18 GOSSIP received from 192.168.0.14
+192.168.0.17 GOSSIP received from 192.168.0.17
+192.168.1.11 GOSSIP received from 192.168.0.19
+192.168.1.16 GOSSIP received from 192.168.1.11
+192.168.1.13 GOSSIP received from 192.168.1.13
+192.168.1.10 GOSSIP received from 192.168.1.16
+192.168.1.16 GOSSIP received from 192.168.1.17
+192.168.0.10 GOSSIP received from 192.168.1.19
+Starting round 22
+192.168.1.13 GOSSIP received from 192.168.1.10
+192.168.0.13 GOSSIP received from 192.168.0.17
+192.168.0.19 GOSSIP received from 192.168.1.11
+192.168.1.11 GOSSIP received from 192.168.1.12
+192.168.1.15 GOSSIP received from 192.168.1.13
+192.168.1.13 GOSSIP received from 192.168.1.14
+192.168.0.12 Deleted 192.168.0.11 from view
+Starting round 23
+192.168.0.17 GOSSIP received from 192.168.0.10
+192.168.0.13 GOSSIP received from 192.168.0.11
+192.168.0.10 GOSSIP received from 192.168.0.18
+192.168.1.14 GOSSIP received from 192.168.0.19
+192.168.0.19 GOSSIP received from 192.168.1.12
+192.168.1.18 GOSSIP received from 192.168.1.15
+192.168.1.10 GOSSIP received from 192.168.1.16
+Starting round 24
+192.168.0.10 GOSSIP received from 192.168.0.10
+192.168.0.11 GOSSIP received from 192.168.0.12
+192.168.0.14 GOSSIP received from 192.168.0.13
+192.168.0.16 GOSSIP received from 192.168.0.14
+192.168.0.13 GOSSIP received from 192.168.0.16
+192.168.0.14 GOSSIP received from 192.168.0.17
+192.168.0.16 GOSSIP received from 192.168.0.18
+192.168.0.19 GOSSIP received from 192.168.1.12
+192.168.1.16 GOSSIP received from 192.168.1.13
+192.168.1.11 GOSSIP received from 192.168.1.14
+192.168.1.17 GOSSIP received from 192.168.1.15
+192.168.1.13 GOSSIP received from 192.168.1.17
+Starting round 25
+192.168.0.13 GOSSIP received from 192.168.0.11
+192.168.1.19 GOSSIP received from 192.168.0.12
+192.168.0.15 GOSSIP received from 192.168.0.15
+192.168.0.16 GOSSIP received from 192.168.0.16
+192.168.0.16 GOSSIP received from 192.168.0.17
+192.168.1.13 GOSSIP received from 192.168.1.12
+192.168.1.17 GOSSIP received from 192.168.1.14
+192.168.0.13 GOSSIP received from 192.168.1.19
+Starting round 26
+192.168.0.16 GOSSIP received from 192.168.0.10
+192.168.1.15 GOSSIP received from 192.168.1.10
+192.168.0.16 GOSSIP received from 192.168.0.11
+192.168.1.19 GOSSIP received from 192.168.0.12
+192.168.0.14 GOSSIP received from 192.168.0.14
+192.168.0.11 GOSSIP received from 192.168.0.15
+192.168.0.11 GOSSIP received from 192.168.0.16
+192.168.1.18 GOSSIP received from 192.168.0.19
+192.168.1.17 GOSSIP received from 192.168.1.16
+192.168.1.10 GOSSIP received from 192.168.1.17
+192.168.1.19 GOSSIP received from 192.168.1.19
+Starting round 27
+192.168.0.10 GOSSIP received from 192.168.0.10
+192.168.1.10 GOSSIP received from 192.168.1.10
+192.168.0.12 GOSSIP received from 192.168.0.11
+192.168.1.19 GOSSIP received from 192.168.0.12
+192.168.0.15 GOSSIP received from 192.168.0.14
+192.168.0.14 GOSSIP received from 192.168.0.15
+192.168.0.12 GOSSIP received from 192.168.0.16
+192.168.0.18 GOSSIP received from 192.168.0.17
+192.168.1.11 GOSSIP received from 192.168.1.11
+192.168.1.12 GOSSIP received from 192.168.1.12
+192.168.1.12 GOSSIP received from 192.168.1.13
+192.168.1.15 GOSSIP received from 192.168.1.14
+192.168.1.12 GOSSIP received from 192.168.1.15
+Starting round 28
+192.168.0.14 GOSSIP received from 192.168.0.13
+192.168.0.13 GOSSIP received from 192.168.0.14
+192.168.0.18 GOSSIP received from 192.168.0.17
+192.168.1.19 GOSSIP received from 192.168.0.18
+192.168.1.10 GOSSIP received from 192.168.1.11
+192.168.1.11 GOSSIP received from 192.168.1.12
+192.168.1.14 GOSSIP received from 192.168.1.17
+Starting round 29
+192.168.0.10 GOSSIP received from 192.168.0.10
+192.168.0.11 GOSSIP received from 192.168.0.11
+192.168.0.17 GOSSIP received from 192.168.0.12
+192.168.0.18 GOSSIP received from 192.168.0.13
+192.168.0.16 GOSSIP received from 192.168.0.14
+192.168.1.19 GOSSIP received from 192.168.0.18
+192.168.1.17 GOSSIP received from 192.168.0.19
+192.168.0.19 GOSSIP received from 192.168.1.11
+192.168.1.11 GOSSIP received from 192.168.1.12
+192.168.0.19 GOSSIP received from 192.168.1.13
+192.168.1.15 GOSSIP received from 192.168.1.16
+192.168.0.13 GOSSIP received from 192.168.1.19
+Starting round 30
+192.168.0.11 GOSSIP received from 192.168.0.12
+192.168.0.17 GOSSIP received from 192.168.0.13
+192.168.0.18 GOSSIP received from 192.168.0.14
+192.168.0.10 GOSSIP received from 192.168.0.15
+192.168.0.13 GOSSIP received from 192.168.0.16
+192.168.0.16 GOSSIP received from 192.168.0.17
+192.168.0.16 GOSSIP received from 192.168.0.18
+192.168.1.18 GOSSIP received from 192.168.0.19
+192.168.0.19 GOSSIP received from 192.168.1.11
+192.168.1.17 GOSSIP received from 192.168.1.13
+192.168.1.12 GOSSIP received from 192.168.1.15
+192.168.0.19 GOSSIP received from 192.168.1.16
+192.168.1.14 GOSSIP received from 192.168.1.18
+192.168.0.18 GOSSIP received from 192.168.1.19
+Starting round 31
+192.168.0.16 GOSSIP received from 192.168.0.12
+192.168.1.19 GOSSIP received from 192.168.0.13
+192.168.0.10 GOSSIP received from 192.168.0.14
+192.168.0.17 GOSSIP received from 192.168.0.15
+192.168.0.11 GOSSIP received from 192.168.0.17
+192.168.1.17 GOSSIP received from 192.168.1.12
+192.168.1.13 GOSSIP received from 192.168.1.14
+192.168.1.10 GOSSIP received from 192.168.1.16
+192.168.1.13 GOSSIP received from 192.168.1.17
+192.168.1.16 GOSSIP received from 192.168.1.18
+Starting round 32
+192.168.0.18 GOSSIP received from 192.168.0.11
+192.168.0.15 GOSSIP received from 192.168.0.14
+192.168.0.12 GOSSIP received from 192.168.0.15
+192.168.0.10 GOSSIP received from 192.168.0.17
+192.168.0.18 GOSSIP received from 192.168.0.18
+192.168.1.17 GOSSIP received from 192.168.1.11
+192.168.1.10 GOSSIP received from 192.168.1.12
+192.168.1.14 GOSSIP received from 192.168.1.16
+192.168.0.12 GOSSIP received from 192.168.1.19
+Starting round 33
+192.168.1.12 GOSSIP received from 192.168.1.10
+192.168.0.17 GOSSIP received from 192.168.0.11
+192.168.1.13 GOSSIP received from 192.168.0.19
+192.168.0.19 GOSSIP received from 192.168.1.11
+192.168.1.12 GOSSIP received from 192.168.1.18
+192.168.0.16 GOSSIP received from 192.168.1.19
+Starting round 34
+192.168.0.19 GOSSIP received from 192.168.1.10
+192.168.0.14 GOSSIP received from 192.168.0.11
+192.168.0.16 GOSSIP received from 192.168.0.12
+192.168.0.13 GOSSIP received from 192.168.0.16
+192.168.0.18 GOSSIP received from 192.168.0.17
+192.168.0.15 GOSSIP received from 192.168.0.18
+192.168.1.14 GOSSIP received from 192.168.0.19
+192.168.1.17 GOSSIP received from 192.168.1.13
+192.168.0.19 GOSSIP received from 192.168.1.14
+192.168.1.14 GOSSIP received from 192.168.1.15
+192.168.1.16 GOSSIP received from 192.168.1.16
+192.168.0.15 GOSSIP received from 192.168.1.19
+Starting round 35
+192.168.1.10 GOSSIP received from 192.168.1.10
+192.168.0.12 GOSSIP received from 192.168.0.14
+192.168.0.17 GOSSIP received from 192.168.0.15
+192.168.0.17 GOSSIP received from 192.168.0.16
+192.168.0.16 GOSSIP received from 192.168.0.17
+192.168.1.15 GOSSIP received from 192.168.0.19
+192.168.1.18 GOSSIP received from 192.168.1.11
+192.168.1.14 GOSSIP received from 192.168.1.14
+192.168.1.17 GOSSIP received from 192.168.1.15
+192.168.1.11 GOSSIP received from 192.168.1.16
+192.168.0.19 GOSSIP received from 192.168.1.18
+Starting round 36
+192.168.0.17 GOSSIP received from 192.168.0.10
+192.168.0.13 GOSSIP received from 192.168.0.13
+192.168.0.13 GOSSIP received from 192.168.0.15
+192.168.0.15 GOSSIP received from 192.168.0.18
+192.168.1.16 GOSSIP received from 192.168.1.11
+192.168.1.16 GOSSIP received from 192.168.1.12
+192.168.1.10 GOSSIP received from 192.168.1.13
+192.168.1.14 GOSSIP received from 192.168.1.14
+192.168.1.10 GOSSIP received from 192.168.1.18
+192.168.0.14 GOSSIP received from 192.168.1.19
+Starting round 37
+192.168.0.10 GOSSIP received from 192.168.0.10
+192.168.1.12 GOSSIP received from 192.168.1.10
+192.168.0.10 GOSSIP received from 192.168.0.11
+192.168.0.11 GOSSIP received from 192.168.0.12
+192.168.1.19 GOSSIP received from 192.168.0.15
+192.168.0.16 GOSSIP received from 192.168.0.16
+192.168.0.10 GOSSIP received from 192.168.0.17
+192.168.0.17 GOSSIP received from 192.168.0.18
+192.168.1.14 GOSSIP received from 192.168.1.11
+192.168.1.15 GOSSIP received from 192.168.1.14
+192.168.1.12 GOSSIP received from 192.168.1.17
 192.168.1.13 GOSSIP received from 192.168.1.18
-Host 192.168.0.10 failed
+Starting round 38
+192.168.0.15 GOSSIP received from 192.168.0.10
+192.168.0.12 GOSSIP received from 192.168.0.11
+192.168.0.17 GOSSIP received from 192.168.0.12
+192.168.0.12 GOSSIP received from 192.168.0.13
+192.168.0.15 GOSSIP received from 192.168.0.15
+192.168.0.12 GOSSIP received from 192.168.0.17
+192.168.1.17 GOSSIP received from 192.168.0.19
+192.168.1.18 GOSSIP received from 192.168.1.11
+192.168.1.17 GOSSIP received from 192.168.1.13
+192.168.1.15 GOSSIP received from 192.168.1.14
+192.168.1.10 GOSSIP received from 192.168.1.15
+192.168.1.13 GOSSIP received from 192.168.1.18
+192.168.0.14 GOSSIP received from 192.168.1.19
+Starting round 39
+192.168.0.14 GOSSIP received from 192.168.0.10
+192.168.0.16 GOSSIP received from 192.168.0.12
+192.168.0.14 GOSSIP received from 192.168.0.14
+192.168.0.11 GOSSIP received from 192.168.0.15
+192.168.0.14 GOSSIP received from 192.168.0.16
+192.168.1.11 GOSSIP received from 192.168.1.17
+192.168.0.15 GOSSIP received from 192.168.1.19
+Starting round 40
+192.168.0.10 GOSSIP received from 192.168.0.10
+192.168.0.18 GOSSIP received from 192.168.0.11
+192.168.0.15 GOSSIP received from 192.168.0.15
+192.168.0.17 GOSSIP received from 192.168.0.16
+192.168.0.10 GOSSIP received from 192.168.0.17
+192.168.1.10 GOSSIP received from 192.168.1.12
+192.168.1.15 GOSSIP received from 192.168.1.17
+192.168.1.11 GOSSIP received from 192.168.1.18
+192.168.0.17 GOSSIP received from 192.168.1.19
+Starting round 41
+192.168.0.16 GOSSIP received from 192.168.0.10
+192.168.1.12 GOSSIP received from 192.168.1.10
+192.168.0.15 GOSSIP received from 192.168.0.11
+192.168.0.10 GOSSIP received from 192.168.0.13
+192.168.0.17 GOSSIP received from 192.168.0.15
+192.168.0.15 GOSSIP received from 192.168.0.16
+192.168.0.15 GOSSIP received from 192.168.0.17
+192.168.1.15 GOSSIP received from 192.168.0.19
+192.168.1.10 GOSSIP received from 192.168.1.11
+192.168.1.18 GOSSIP received from 192.168.1.13
+192.168.1.13 GOSSIP received from 192.168.1.15
+192.168.1.16 GOSSIP received from 192.168.1.18
+Starting round 42
+192.168.0.16 GOSSIP received from 192.168.0.10
+192.168.0.13 GOSSIP received from 192.168.0.13
+192.168.0.13 GOSSIP received from 192.168.0.15
+192.168.0.15 GOSSIP received from 192.168.0.16
+192.168.1.19 GOSSIP received from 192.168.0.17
+192.168.1.11 GOSSIP received from 192.168.1.12
+192.168.1.17 GOSSIP received from 192.168.1.14
+192.168.0.19 GOSSIP received from 192.168.1.15
+192.168.1.12 GOSSIP received from 192.168.1.16
+Starting round 43
+192.168.1.19 GOSSIP received from 192.168.0.10
+192.168.0.17 GOSSIP received from 192.168.0.11
+192.168.0.18 GOSSIP received from 192.168.0.12
+192.168.0.18 GOSSIP received from 192.168.0.13
+192.168.0.12 GOSSIP received from 192.168.0.14
+192.168.0.15 GOSSIP received from 192.168.0.16
+192.168.0.13 GOSSIP received from 192.168.0.18
+192.168.1.12 GOSSIP received from 192.168.1.12
+192.168.1.17 GOSSIP received from 192.168.1.13
+192.168.1.13 GOSSIP received from 192.168.1.17
+Starting round 44
+192.168.0.10 GOSSIP received from 192.168.0.10
+192.168.1.19 GOSSIP received from 192.168.0.11
+192.168.0.14 GOSSIP received from 192.168.0.12
+192.168.0.13 GOSSIP received from 192.168.0.13
+192.168.0.14 GOSSIP received from 192.168.0.14
+192.168.1.15 GOSSIP received from 192.168.0.19
+192.168.1.16 GOSSIP received from 192.168.1.15
+Starting round 45
+192.168.0.15 GOSSIP received from 192.168.0.10
+192.168.0.15 GOSSIP received from 192.168.0.11
+192.168.0.16 GOSSIP received from 192.168.0.12
+192.168.1.19 GOSSIP received from 192.168.0.13
+192.168.0.17 GOSSIP received from 192.168.0.15
+192.168.0.14 GOSSIP received from 192.168.0.16
+192.168.0.12 GOSSIP received from 192.168.0.18
+192.168.1.15 GOSSIP received from 192.168.0.19
+192.168.1.16 GOSSIP received from 192.168.1.13
+192.168.1.16 GOSSIP received from 192.168.1.14
+192.168.1.18 GOSSIP received from 192.168.1.15
+192.168.1.12 GOSSIP received from 192.168.1.16
+192.168.0.19 GOSSIP received from 192.168.1.17
+Starting round 46
+192.168.0.13 GOSSIP received from 192.168.0.10
+192.168.0.19 GOSSIP received from 192.168.1.10
+192.168.0.14 GOSSIP received from 192.168.0.15
+192.168.0.11 GOSSIP received from 192.168.0.16
+192.168.1.14 GOSSIP received from 192.168.0.19
+192.168.1.16 GOSSIP received from 192.168.1.12
+192.168.1.13 GOSSIP received from 192.168.1.14
+192.168.0.19 GOSSIP received from 192.168.1.15
+192.168.0.19 GOSSIP received from 192.168.1.17
+192.168.1.15 GOSSIP received from 192.168.1.18
+Starting round 47
+192.168.0.10 GOSSIP received from 192.168.0.10
+192.168.1.17 GOSSIP received from 192.168.1.10
+192.168.0.16 GOSSIP received from 192.168.0.17
+192.168.1.12 GOSSIP received from 192.168.1.11
+192.168.1.16 GOSSIP received from 192.168.1.12
+192.168.1.12 GOSSIP received from 192.168.1.16
+Starting round 48
+192.168.0.15 GOSSIP received from 192.168.0.10
+192.168.1.15 GOSSIP received from 192.168.1.10
+192.168.0.18 GOSSIP received from 192.168.0.11
+192.168.0.16 GOSSIP received from 192.168.0.14
+192.168.0.13 GOSSIP received from 192.168.0.15
+192.168.0.15 GOSSIP received from 192.168.0.16
+192.168.0.10 GOSSIP received from 192.168.0.17
+192.168.1.14 GOSSIP received from 192.168.0.19
+192.168.1.14 GOSSIP received from 192.168.1.13
+192.168.1.10 GOSSIP received from 192.168.1.14
+Starting round 49
+192.168.0.13 GOSSIP received from 192.168.0.10
+192.168.0.19 GOSSIP received from 192.168.1.10
+192.168.0.14 GOSSIP received from 192.168.0.12
+192.168.0.17 GOSSIP received from 192.168.0.14
+192.168.0.12 GOSSIP received from 192.168.0.15
+192.168.0.14 GOSSIP received from 192.168.0.16
+192.168.0.15 GOSSIP received from 192.168.0.18
+192.168.1.17 GOSSIP received from 192.168.1.11
+192.168.1.12 GOSSIP received from 192.168.1.12
+192.168.1.11 GOSSIP received from 192.168.1.14
+192.168.1.14 GOSSIP received from 192.168.1.15
+192.168.1.18 GOSSIP received from 192.168.1.16
+192.168.1.17 GOSSIP received from 192.168.1.17
+192.168.1.13 GOSSIP received from 192.168.1.18
+192.168.0.14 GOSSIP received from 192.168.1.19
+Starting round 50
+192.168.0.13 GOSSIP received from 192.168.0.10
+192.168.1.18 GOSSIP received from 192.168.1.10
+192.168.0.17 GOSSIP received from 192.168.0.14
+192.168.0.16 GOSSIP received from 192.168.0.15
+192.168.0.18 GOSSIP received from 192.168.0.16
+192.168.1.17 GOSSIP received from 192.168.0.19
+192.168.1.16 GOSSIP received from 192.168.1.12
+192.168.1.15 GOSSIP received from 192.168.1.14
+192.168.1.15 GOSSIP received from 192.168.1.15
+192.168.1.13 GOSSIP received from 192.168.1.16
+192.168.0.17 GOSSIP received from 192.168.1.19
+Host 192.168.0.11 failed
 Host 192.168.0.12 failed
-Host 192.168.0.16 failed
+Host 192.168.0.15 failed
 Host 192.168.0.17 failed
+Host 192.168.0.18 failed
+Host 192.168.1.11 failed
 Host 192.168.1.12 failed
 Host 192.168.1.13 failed
 Host 192.168.1.14 failed
-Host 192.168.1.15 failed
-Starting cycle 51
-192.168.1.10 GOSSIP received from 192.168.1.10
-192.168.0.14 GOSSIP received from 192.168.0.13
-192.168.1.17 GOSSIP received from 192.168.1.11
-192.168.1.11 GOSSIP received from 192.168.1.16
-Starting cycle 52
-192.168.1.10 GOSSIP received from 192.168.1.10
-192.168.0.15 GOSSIP received from 192.168.0.14
-192.168.0.15 GOSSIP received from 192.168.0.18
-192.168.0.19 GOSSIP received from 192.168.1.17
-Starting cycle 53
-192.168.0.14 GOSSIP received from 192.168.0.13
-192.168.0.15 GOSSIP received from 192.168.0.15
-192.168.1.10 GOSSIP received from 192.168.1.17
-192.168.0.11 GOSSIP received from 192.168.1.19
-Starting cycle 54
-192.168.0.19 GOSSIP received from 192.168.1.10
-192.168.0.18 GOSSIP received from 192.168.0.11
-192.168.0.18 GOSSIP received from 192.168.0.13
-Starting cycle 55
-192.168.1.16 GOSSIP received from 192.168.1.10
-192.168.0.14 GOSSIP received from 192.168.0.11
-192.168.0.19 GOSSIP received from 192.168.0.19
-Starting cycle 56
-192.168.1.17 GOSSIP received from 192.168.1.10
-192.168.0.15 GOSSIP received from 192.168.0.11
-192.168.0.15 GOSSIP received from 192.168.0.14
-Starting cycle 57
-192.168.0.18 GOSSIP received from 192.168.0.14
-192.168.0.18 GOSSIP received from 192.168.0.15
-192.168.1.16 GOSSIP received from 192.168.1.11
-Starting cycle 58
-192.168.0.11 GOSSIP received from 192.168.0.11
-192.168.0.11 GOSSIP received from 192.168.0.13
-192.168.1.10 GOSSIP received from 192.168.1.16
-Starting cycle 59
-192.168.0.14 GOSSIP received from 192.168.0.11
-192.168.1.16 GOSSIP received from 192.168.1.18
-Starting cycle 60
-192.168.1.17 GOSSIP received from 192.168.1.10
-192.168.0.15 GOSSIP received from 192.168.0.14
-192.168.0.11 GOSSIP received from 192.168.0.15
-Starting cycle 61
-192.168.0.18 GOSSIP received from 192.168.0.13
-192.168.0.18 GOSSIP received from 192.168.0.14
-192.168.0.13 GOSSIP received from 192.168.0.15
-192.168.0.14 GOSSIP received from 192.168.0.18
-192.168.1.18 GOSSIP received from 192.168.1.11
-192.168.1.18 GOSSIP received from 192.168.1.18
-192.168.0.13 GOSSIP received from 192.168.1.19
-Starting cycle 62
-192.168.1.16 GOSSIP received from 192.168.1.18
-Starting cycle 63
-192.168.0.19 GOSSIP received from 192.168.1.10
-192.168.0.18 GOSSIP received from 192.168.0.13
+Host 192.168.1.16 failed
+Host 192.168.1.17 failed
+Host 192.168.1.18 failed
+Host 192.168.1.19 failed
+Starting round 51
 192.168.0.13 GOSSIP received from 192.168.0.14
-192.168.1.16 GOSSIP received from 192.168.1.17
-192.168.0.11 GOSSIP received from 192.168.1.19
-192.168.1.19 Deleted 192.168.0.12 from view
-Starting cycle 64
-192.168.0.14 GOSSIP received from 192.168.0.11
-192.168.0.11 GOSSIP received from 192.168.0.18
-192.168.1.16 GOSSIP received from 192.168.1.18
-192.168.1.11 Deleted 192.168.1.11 from view
-192.168.1.19 Deleted 192.168.0.17 from view
-192.168.1.19 Deleted 192.168.0.16 from view
-192.168.1.19 Deleted 192.168.0.12 from view
-192.168.1.19 Deleted 192.168.0.11 from view
-192.168.1.19 Deleted 192.168.0.14 from view
-Starting cycle 65
-192.168.0.15 GOSSIP received from 192.168.0.11
-192.168.0.18 GOSSIP received from 192.168.0.18
-192.168.1.17 GOSSIP received from 192.168.0.19
-192.168.1.17 GOSSIP received from 192.168.1.18
-192.168.1.19 Deleted 192.168.0.14 from view
-Starting cycle 66
-192.168.1.16 GOSSIP received from 192.168.1.10
-192.168.1.16 GOSSIP received from 192.168.1.11
-192.168.1.17 GOSSIP received from 192.168.1.16
-192.168.1.10 GOSSIP received from 192.168.1.18
-192.168.1.19 GOSSIP received from 192.168.1.19
-192.168.1.11 Deleted 192.168.1.14 from view
-Starting cycle 67
-192.168.1.11 GOSSIP received from 192.168.0.19
-192.168.1.19 GOSSIP received from 192.168.1.19
-192.168.1.18 Deleted 192.168.1.14 from view
-192.168.1.18 Deleted 192.168.1.18 from view
-192.168.1.19 Deleted 192.168.0.10 from view
-192.168.1.19 Deleted 192.168.1.19 from view
-Starting cycle 68
-192.168.0.14 GOSSIP received from 192.168.0.11
-192.168.0.18 GOSSIP received from 192.168.0.14
-192.168.0.19 GOSSIP received from 192.168.1.11
-192.168.0.13 Deleted 192.168.0.13 from view
-192.168.0.19 Deleted 192.168.1.12 from view
-Starting cycle 69
+Starting round 52
+192.168.0.10 GOSSIP received from 192.168.0.14
+192.168.0.19 GOSSIP received from 192.168.1.15
+Starting round 53
+192.168.0.10 GOSSIP received from 192.168.0.14
+Starting round 54
+Starting round 55
+Starting round 56
 192.168.0.13 GOSSIP received from 192.168.0.13
-192.168.1.16 GOSSIP received from 192.168.1.16
-192.168.1.19 GOSSIP received from 192.168.1.19
-192.168.1.10 Deleted 192.168.1.14 from view
-192.168.1.10 Deleted 192.168.1.18 from view
-192.168.1.10 Deleted 192.168.1.17 from view
-192.168.0.14 Deleted 192.168.0.15 from view
-192.168.0.18 Deleted 192.168.0.18 from view
-192.168.0.19 Deleted 192.168.1.11 from view
-192.168.1.18 Deleted 192.168.1.17 from view
-Starting cycle 70
-192.168.1.11 GOSSIP received from 192.168.1.10
-192.168.1.19 GOSSIP received from 192.168.0.11
-192.168.0.18 GOSSIP received from 192.168.0.13
-192.168.1.16 GOSSIP received from 192.168.0.19
-192.168.1.10 GOSSIP received from 192.168.1.11
-192.168.1.11 GOSSIP received from 192.168.1.16
-192.168.1.17 GOSSIP received from 192.168.1.17
-192.168.1.19 GOSSIP received from 192.168.1.19
-192.168.0.11 Deleted 192.168.0.17 from view
-192.168.0.13 Deleted 192.168.0.11 from view
-192.168.0.15 Deleted 192.168.0.13 from view
-192.168.1.16 Deleted 192.168.1.13 from view
-192.168.1.16 Deleted 192.168.0.19 from view
-Starting cycle 71
-192.168.0.14 GOSSIP received from 192.168.0.11
-192.168.0.11 GOSSIP received from 192.168.0.14
-192.168.0.15 GOSSIP received from 192.168.0.18
-192.168.1.19 GOSSIP received from 192.168.1.19
-192.168.0.14 Deleted 192.168.0.11 from view
-192.168.0.14 Deleted 192.168.0.14 from view
-192.168.1.11 Deleted 192.168.1.13 from view
-192.168.1.11 Deleted 192.168.1.17 from view
-192.168.1.11 Deleted 192.168.1.11 from view
-Starting cycle 72
-192.168.1.19 GOSSIP received from 192.168.0.11
-192.168.0.13 GOSSIP received from 192.168.0.14
-192.168.1.17 GOSSIP received from 192.168.1.11
-192.168.0.15 GOSSIP received from 192.168.1.19
-192.168.0.15 Deleted 192.168.0.13 from view
-192.168.0.15 Deleted 192.168.0.11 from view
-192.168.0.15 Deleted 192.168.0.15 from view
-Starting cycle 73
-192.168.0.15 GOSSIP received from 192.168.0.13
-192.168.0.18 GOSSIP received from 192.168.0.14
-192.168.1.19 GOSSIP received from 192.168.0.15
-192.168.1.10 Deleted 192.168.1.10 from view
-192.168.0.11 Deleted 192.168.0.11 from view
-Starting cycle 74
+192.168.0.10 GOSSIP received from 192.168.0.14
+192.168.0.16 GOSSIP received from 192.168.0.16
+192.168.1.15 GOSSIP received from 192.168.0.19
+Starting round 57
+Starting round 58
 192.168.1.10 GOSSIP received from 192.168.1.10
-192.168.1.19 GOSSIP received from 192.168.0.11
-192.168.0.15 GOSSIP received from 192.168.0.13
-192.168.1.19 GOSSIP received from 192.168.0.15
-192.168.0.18 Deleted 192.168.0.15 from view
-192.168.0.18 Deleted 192.168.0.11 from view
-192.168.0.19 Deleted 192.168.1.13 from view
-192.168.0.19 Deleted 192.168.1.17 from view
-192.168.0.19 Deleted 192.168.1.10 from view
-Starting cycle 75
-192.168.1.19 GOSSIP received from 192.168.0.14
-192.168.0.11 GOSSIP received from 192.168.0.15
-192.168.1.11 GOSSIP received from 192.168.1.11
-192.168.1.18 GOSSIP received from 192.168.1.18
-192.168.1.16 Deleted 192.168.1.13 from view
-Starting cycle 76
-192.168.1.11 GOSSIP received from 192.168.1.10
-192.168.0.14 GOSSIP received from 192.168.0.14
-192.168.1.18 GOSSIP received from 192.168.1.17
-192.168.1.17 Deleted 192.168.1.14 from view
-Starting cycle 77
-192.168.1.16 GOSSIP received from 192.168.1.10
-192.168.1.16 GOSSIP received from 192.168.1.16
-192.168.1.10 GOSSIP received from 192.168.1.18
-192.168.0.18 Deleted 192.168.0.15 from view
-Starting cycle 78
-192.168.1.11 GOSSIP received from 192.168.1.10
-192.168.0.11 GOSSIP received from 192.168.0.14
-192.168.0.18 GOSSIP received from 192.168.0.18
-192.168.1.10 GOSSIP received from 192.168.1.11
-192.168.0.18 GOSSIP received from 192.168.1.19
-192.168.1.10 Deleted 192.168.0.19 from view
+192.168.0.14 GOSSIP received from 192.168.0.13
+192.168.0.19 GOSSIP received from 192.168.0.19
+192.168.0.19 GOSSIP received from 192.168.1.15
+192.168.1.15 Deleted 192.168.1.14 from view
+Starting round 59
+192.168.0.13 GOSSIP received from 192.168.0.10
+Starting round 60
+192.168.0.16 GOSSIP received from 192.168.0.13
+192.168.0.16 GOSSIP received from 192.168.0.14
 192.168.1.10 Deleted 192.168.1.11 from view
-192.168.0.11 Deleted 192.168.0.14 from view
-Starting cycle 79
-192.168.0.13 GOSSIP received from 192.168.0.14
-192.168.1.19 GOSSIP received from 192.168.0.15
-192.168.0.14 GOSSIP received from 192.168.0.18
-192.168.1.16 GOSSIP received from 192.168.1.17
-192.168.1.16 Deleted 192.168.1.11 from view
-Starting cycle 80
-192.168.0.11 GOSSIP received from 192.168.0.15
-192.168.1.16 GOSSIP received from 192.168.0.19
-192.168.0.11 Deleted 192.168.0.15 from view
-192.168.1.17 Deleted 192.168.1.13 from view
-192.168.1.17 Deleted 192.168.1.11 from view
-Starting cycle 81
-192.168.0.18 GOSSIP received from 192.168.0.11
-192.168.0.18 GOSSIP received from 192.168.0.13
-192.168.1.19 GOSSIP received from 192.168.0.14
-192.168.0.18 GOSSIP received from 192.168.0.18
-192.168.0.19 GOSSIP received from 192.168.0.19
-192.168.1.11 GOSSIP received from 192.168.1.17
-192.168.1.16 GOSSIP received from 192.168.1.18
-192.168.0.13 Deleted 192.168.0.15 from view
-192.168.0.13 Deleted 192.168.0.11 from view
-192.168.0.14 Deleted 192.168.0.15 from view
-192.168.1.18 Deleted 192.168.1.17 from view
-192.168.1.18 Deleted 192.168.1.11 from view
-Starting cycle 82
-192.168.1.11 GOSSIP received from 192.168.1.10
-192.168.0.14 GOSSIP received from 192.168.0.14
-192.168.0.14 GOSSIP received from 192.168.0.18
-192.168.0.19 GOSSIP received from 192.168.0.19
-192.168.1.17 GOSSIP received from 192.168.1.11
-192.168.1.17 GOSSIP received from 192.168.1.16
-192.168.0.19 GOSSIP received from 192.168.1.17
-192.168.0.15 GOSSIP received from 192.168.1.19
-Starting cycle 83
-192.168.1.11 GOSSIP received from 192.168.1.10
-192.168.0.13 GOSSIP received from 192.168.0.15
-192.168.1.19 GOSSIP received from 192.168.0.18
-192.168.1.11 GOSSIP received from 192.168.0.19
-192.168.1.10 GOSSIP received from 192.168.1.16
-192.168.1.18 GOSSIP received from 192.168.1.18
-192.168.0.13 GOSSIP received from 192.168.1.19
-192.168.0.13 Deleted 192.168.0.11 from view
-192.168.0.19 Deleted 192.168.1.17 from view
-Starting cycle 84
-192.168.0.14 GOSSIP received from 192.168.0.11
-192.168.0.11 GOSSIP received from 192.168.0.13
-192.168.0.13 GOSSIP received from 192.168.0.15
-192.168.0.19 GOSSIP received from 192.168.0.19
-192.168.1.10 GOSSIP received from 192.168.1.11
-192.168.0.19 GOSSIP received from 192.168.1.16
-Starting cycle 85
-192.168.1.19 GOSSIP received from 192.168.0.11
-192.168.0.11 GOSSIP received from 192.168.0.13
-192.168.1.11 GOSSIP received from 192.168.0.19
-192.168.0.19 GOSSIP received from 192.168.1.11
-192.168.0.15 GOSSIP received from 192.168.1.19
-Starting cycle 86
-192.168.1.19 GOSSIP received from 192.168.0.11
-192.168.0.13 GOSSIP received from 192.168.0.13
-192.168.0.13 GOSSIP received from 192.168.0.14
-192.168.0.19 GOSSIP received from 192.168.1.16
-192.168.1.17 GOSSIP received from 192.168.1.17
-192.168.1.17 Deleted 192.168.1.18 from view
-Starting cycle 87
-192.168.1.16 GOSSIP received from 192.168.1.10
-192.168.0.13 GOSSIP received from 192.168.0.11
-192.168.0.15 GOSSIP received from 192.168.0.15
-192.168.0.14 GOSSIP received from 192.168.0.18
-192.168.0.19 GOSSIP received from 192.168.1.16
-192.168.0.19 GOSSIP received from 192.168.1.17
-192.168.0.14 GOSSIP received from 192.168.1.19
-Starting cycle 88
-192.168.1.16 GOSSIP received from 192.168.1.10
-192.168.0.18 GOSSIP received from 192.168.0.11
-192.168.0.14 GOSSIP received from 192.168.0.18
-192.168.1.16 GOSSIP received from 192.168.0.19
-Starting cycle 89
-192.168.0.19 GOSSIP received from 192.168.1.10
-192.168.0.18 GOSSIP received from 192.168.0.11
-192.168.0.13 GOSSIP received from 192.168.0.18
-192.168.1.18 GOSSIP received from 192.168.1.11
-192.168.0.19 GOSSIP received from 192.168.1.16
-192.168.0.19 GOSSIP received from 192.168.1.17
-Starting cycle 90
-192.168.0.11 GOSSIP received from 192.168.0.14
-192.168.1.16 GOSSIP received from 192.168.0.19
-192.168.1.10 GOSSIP received from 192.168.1.11
-192.168.1.11 GOSSIP received from 192.168.1.17
-192.168.1.10 GOSSIP received from 192.168.1.18
-192.168.1.19 Deleted 192.168.0.15 from view
-Starting cycle 91
-192.168.1.19 GOSSIP received from 192.168.0.11
+Starting round 61
+192.168.1.10 Deleted 192.168.1.15 from view
+192.168.1.10 Deleted 192.168.1.11 from view
+192.168.1.10 Deleted 192.168.0.19 from view
+Starting round 62
+192.168.0.19 Deleted 192.168.1.14 from view
+Starting round 63
+192.168.0.10 GOSSIP received from 192.168.0.10
 192.168.0.14 GOSSIP received from 192.168.0.13
-192.168.0.11 GOSSIP received from 192.168.0.15
-192.168.1.18 GOSSIP received from 192.168.1.16
-192.168.1.11 GOSSIP received from 192.168.1.17
-192.168.0.13 GOSSIP received from 192.168.1.19
-Starting cycle 92
-192.168.0.13 GOSSIP received from 192.168.0.11
-192.168.1.19 GOSSIP received from 192.168.0.13
-192.168.0.18 GOSSIP received from 192.168.0.15
-192.168.1.18 GOSSIP received from 192.168.1.11
-192.168.1.11 GOSSIP received from 192.168.1.17
-192.168.0.15 Deleted 192.168.1.19 from view
-Starting cycle 93
+Starting round 64
+Starting round 65
+192.168.0.13 GOSSIP received from 192.168.0.14
+192.168.1.10 GOSSIP received from 192.168.1.15
+Starting round 66
+192.168.0.14 Deleted 192.168.0.10 from view
+192.168.0.19 Deleted 192.168.1.10 from view
+192.168.0.19 Deleted 192.168.1.11 from view
+192.168.0.19 Deleted 192.168.0.19 from view
+192.168.1.15 Deleted 192.168.1.12 from view
+Starting round 67
+Starting round 68
+192.168.0.13 GOSSIP received from 192.168.0.13
+192.168.0.19 GOSSIP received from 192.168.1.15
+192.168.0.10 Deleted 192.168.0.16 from view
+192.168.1.10 Deleted 192.168.1.13 from view
+192.168.1.10 Deleted 192.168.0.19 from view
+192.168.1.10 Deleted 192.168.1.10 from view
+192.168.0.13 Deleted 192.168.0.18 from view
+192.168.0.13 Deleted 192.168.0.14 from view
+192.168.1.15 Deleted 192.168.1.11 from view
+192.168.1.15 Deleted 192.168.0.19 from view
+Starting round 69
+192.168.0.14 GOSSIP received from 192.168.0.10
 192.168.1.10 GOSSIP received from 192.168.1.10
-192.168.1.19 GOSSIP received from 192.168.0.13
-192.168.1.11 GOSSIP received from 192.168.1.11
-192.168.1.17 GOSSIP received from 192.168.1.16
-192.168.1.10 GOSSIP received from 192.168.1.17
-192.168.1.16 GOSSIP received from 192.168.1.18
-192.168.0.11 GOSSIP received from 192.168.1.19
-Starting cycle 94
-192.168.0.11 GOSSIP received from 192.168.0.11
-192.168.1.19 GOSSIP received from 192.168.0.13
-192.168.1.11 GOSSIP received from 192.168.0.19
-192.168.0.19 GOSSIP received from 192.168.1.11
-192.168.0.19 GOSSIP received from 192.168.1.17
-Starting cycle 95
+192.168.0.16 GOSSIP received from 192.168.0.13
+192.168.0.13 Deleted 192.168.0.16 from view
+192.168.0.14 Deleted 192.168.0.17 from view
+192.168.0.14 Deleted 192.168.0.15 from view
+192.168.0.14 Deleted 192.168.0.13 from view
+192.168.0.14 Deleted 192.168.0.10 from view
+192.168.0.19 Deleted 192.168.1.18 from view
+Starting round 70
+192.168.0.16 Deleted 192.168.0.17 from view
+192.168.0.16 Deleted 192.168.0.13 from view
+192.168.0.16 Deleted 192.168.0.14 from view
+192.168.1.15 Deleted 192.168.1.13 from view
+192.168.1.15 Deleted 192.168.0.19 from view
+192.168.1.15 Deleted 192.168.1.10 from view
+Starting round 71
+192.168.0.19 GOSSIP received from 192.168.1.10
+192.168.0.19 GOSSIP received from 192.168.0.19
+192.168.1.10 GOSSIP received from 192.168.1.15
+192.168.0.13 Deleted 192.168.0.16 from view
+192.168.0.13 Deleted 192.168.0.18 from view
+192.168.0.13 Deleted 192.168.0.12 from view
+192.168.0.13 Deleted 192.168.0.14 from view
+Starting round 72
+192.168.0.10 GOSSIP received from 192.168.0.13
+192.168.0.10 Deleted 192.168.0.18 from view
+192.168.0.10 Deleted 192.168.0.16 from view
+192.168.0.10 Deleted 192.168.0.15 from view
+192.168.0.10 Deleted 192.168.0.13 from view
+192.168.0.10 Deleted 192.168.0.11 from view
+192.168.0.10 Deleted 192.168.0.14 from view
+192.168.0.19 Deleted 192.168.1.15 from view
+192.168.0.19 Deleted 192.168.1.18 from view
+192.168.0.19 Deleted 192.168.0.19 from view
+Starting round 73
+192.168.1.10 GOSSIP received from 192.168.1.10
+192.168.0.10 GOSSIP received from 192.168.0.13
+192.168.0.16 GOSSIP received from 192.168.0.16
+192.168.1.10 GOSSIP received from 192.168.0.19
+192.168.1.10 GOSSIP received from 192.168.1.15
+Starting round 74
+192.168.0.10 GOSSIP received from 192.168.0.10
+192.168.1.10 GOSSIP received from 192.168.1.10
+192.168.0.14 GOSSIP received from 192.168.0.13
+192.168.0.19 GOSSIP received from 192.168.0.19
+192.168.0.19 GOSSIP received from 192.168.1.15
+Starting round 75
+192.168.0.10 GOSSIP received from 192.168.0.13
+192.168.0.14 GOSSIP received from 192.168.0.14
+Starting round 76
+192.168.1.15 GOSSIP received from 192.168.1.10
+192.168.1.10 GOSSIP received from 192.168.0.19
+Starting round 77
+192.168.0.14 GOSSIP received from 192.168.0.13
+192.168.1.15 GOSSIP received from 192.168.0.19
+Starting round 78
+192.168.0.19 GOSSIP received from 192.168.1.10
+192.168.0.19 GOSSIP received from 192.168.0.19
+192.168.1.15 GOSSIP received from 192.168.1.15
+192.168.0.14 Deleted 192.168.0.15 from view
+192.168.0.14 Deleted 192.168.0.13 from view
+Starting round 79
+192.168.1.15 GOSSIP received from 192.168.1.10
+192.168.0.14 GOSSIP received from 192.168.0.14
+192.168.1.15 GOSSIP received from 192.168.1.15
+192.168.0.13 Deleted 192.168.0.13 from view
+Starting round 80
+192.168.0.10 GOSSIP received from 192.168.0.10
+192.168.0.19 GOSSIP received from 192.168.1.10
+192.168.0.13 GOSSIP received from 192.168.0.13
+192.168.0.10 GOSSIP received from 192.168.0.14
+192.168.1.10 GOSSIP received from 192.168.0.19
+192.168.0.19 GOSSIP received from 192.168.1.15
+192.168.0.16 Deleted 192.168.0.17 from view
+192.168.0.16 Deleted 192.168.0.13 from view
+192.168.0.16 Deleted 192.168.0.14 from view
+192.168.0.16 Deleted 192.168.0.16 from view
+Starting round 81
+192.168.0.13 GOSSIP received from 192.168.0.10
+192.168.1.10 GOSSIP received from 192.168.1.10
+192.168.0.14 GOSSIP received from 192.168.0.13
+192.168.0.10 GOSSIP received from 192.168.0.14
+192.168.0.16 GOSSIP received from 192.168.0.16
+Starting round 82
+192.168.0.14 GOSSIP received from 192.168.0.10
+192.168.0.13 GOSSIP received from 192.168.0.14
+192.168.0.13 GOSSIP received from 192.168.0.16
+192.168.1.10 GOSSIP received from 192.168.0.19
+192.168.1.10 GOSSIP received from 192.168.1.15
+Starting round 83
+192.168.1.10 GOSSIP received from 192.168.1.10
+192.168.0.10 GOSSIP received from 192.168.0.13
 192.168.0.13 GOSSIP received from 192.168.0.14
 192.168.1.10 GOSSIP received from 192.168.0.19
-192.168.1.16 GOSSIP received from 192.168.1.11
-192.168.0.19 GOSSIP received from 192.168.1.17
-192.168.1.19 GOSSIP received from 192.168.1.19
-Starting cycle 96
-192.168.1.17 GOSSIP received from 192.168.1.10
-192.168.0.13 GOSSIP received from 192.168.0.15
-192.168.1.10 GOSSIP received from 192.168.1.11
-192.168.1.18 Deleted 192.168.1.16 from view
-Starting cycle 97
-192.168.1.11 GOSSIP received from 192.168.1.10
-192.168.0.15 GOSSIP received from 192.168.0.13
-192.168.0.14 GOSSIP received from 192.168.0.18
-192.168.1.17 GOSSIP received from 192.168.1.18
-192.168.1.10 Deleted 192.168.1.16 from view
-Starting cycle 98
-192.168.0.15 GOSSIP received from 192.168.0.13
-192.168.1.19 GOSSIP received from 192.168.0.14
-192.168.1.11 GOSSIP received from 192.168.0.19
-192.168.1.18 GOSSIP received from 192.168.1.11
-192.168.0.19 GOSSIP received from 192.168.1.16
-192.168.0.19 GOSSIP received from 192.168.1.17
-192.168.1.11 GOSSIP received from 192.168.1.18
-192.168.0.15 GOSSIP received from 192.168.1.19
-192.168.0.18 Deleted 192.168.1.19 from view
-192.168.1.11 Deleted 192.168.1.16 from view
-Starting cycle 99
-192.168.0.19 GOSSIP received from 192.168.1.10
-192.168.0.11 GOSSIP received from 192.168.0.11
-192.168.0.18 GOSSIP received from 192.168.0.13
-192.168.0.18 GOSSIP received from 192.168.0.14
-192.168.0.18 GOSSIP received from 192.168.0.15
-192.168.0.13 GOSSIP received from 192.168.0.18
+Starting round 84
+192.168.0.13 GOSSIP received from 192.168.0.16
+192.168.1.10 GOSSIP received from 192.168.1.15
+Starting round 85
+192.168.0.14 GOSSIP received from 192.168.0.13
+192.168.0.14 GOSSIP received from 192.168.0.14
+192.168.0.13 GOSSIP received from 192.168.0.16
+Starting round 86
+192.168.0.16 GOSSIP received from 192.168.0.10
+192.168.0.13 GOSSIP received from 192.168.0.13
+192.168.0.14 GOSSIP received from 192.168.0.16
+Starting round 87
+192.168.0.14 GOSSIP received from 192.168.0.10
+192.168.0.14 GOSSIP received from 192.168.0.13
+192.168.0.10 GOSSIP received from 192.168.0.14
+192.168.0.13 GOSSIP received from 192.168.0.16
+192.168.1.15 GOSSIP received from 192.168.0.19
+Starting round 88
+192.168.1.15 GOSSIP received from 192.168.1.10
+192.168.0.10 GOSSIP received from 192.168.0.13
+192.168.0.10 GOSSIP received from 192.168.0.14
+192.168.0.16 GOSSIP received from 192.168.0.16
+192.168.1.15 GOSSIP received from 192.168.0.19
+Starting round 89
+192.168.1.10 GOSSIP received from 192.168.1.10
+192.168.0.13 GOSSIP received from 192.168.0.13
+192.168.1.15 GOSSIP received from 192.168.0.19
+Starting round 90
+192.168.0.10 GOSSIP received from 192.168.0.10
+192.168.0.14 GOSSIP received from 192.168.0.13
+192.168.0.14 GOSSIP received from 192.168.0.14
+192.168.0.16 GOSSIP received from 192.168.0.16
+192.168.1.10 GOSSIP received from 192.168.0.19
+Starting round 91
+192.168.0.16 GOSSIP received from 192.168.0.14
 192.168.0.19 GOSSIP received from 192.168.0.19
-192.168.1.18 GOSSIP received from 192.168.1.16
-192.168.1.10 GOSSIP received from 192.168.1.17
-192.168.1.10 GOSSIP received from 192.168.1.18
-Starting cycle 100
-192.168.0.15 GOSSIP received from 192.168.0.14
-192.168.1.11 GOSSIP received from 192.168.0.19
-192.168.1.18 GOSSIP received from 192.168.1.17
+Starting round 92
+192.168.1.15 GOSSIP received from 192.168.1.10
+192.168.0.16 GOSSIP received from 192.168.0.13
+192.168.0.16 GOSSIP received from 192.168.0.14
+192.168.0.10 GOSSIP received from 192.168.0.16
+192.168.1.15 GOSSIP received from 192.168.0.19
+Starting round 93
+192.168.0.10 GOSSIP received from 192.168.0.13
+192.168.0.16 GOSSIP received from 192.168.0.14
+Starting round 94
+192.168.0.14 GOSSIP received from 192.168.0.16
+192.168.0.19 GOSSIP received from 192.168.1.15
+Starting round 95
+192.168.0.14 GOSSIP received from 192.168.0.10
+192.168.0.16 GOSSIP received from 192.168.0.13
+192.168.0.13 GOSSIP received from 192.168.0.14
+192.168.1.10 GOSSIP received from 192.168.0.19
+Starting round 96
+192.168.0.13 GOSSIP received from 192.168.0.10
+192.168.0.19 GOSSIP received from 192.168.1.10
+192.168.0.16 GOSSIP received from 192.168.0.14
+192.168.1.15 GOSSIP received from 192.168.0.19
+192.168.0.19 GOSSIP received from 192.168.1.15
+Starting round 97
+192.168.0.14 GOSSIP received from 192.168.0.10
+192.168.0.10 GOSSIP received from 192.168.0.13
+192.168.0.10 GOSSIP received from 192.168.0.16
+192.168.0.19 GOSSIP received from 192.168.1.15
+Starting round 98
+192.168.0.13 GOSSIP received from 192.168.0.10
+192.168.0.16 GOSSIP received from 192.168.0.13
+192.168.0.16 GOSSIP received from 192.168.0.16
+192.168.1.15 GOSSIP received from 192.168.0.19
+Starting round 99
+192.168.0.10 GOSSIP received from 192.168.0.10
+192.168.0.10 GOSSIP received from 192.168.0.16
+192.168.1.15 GOSSIP received from 192.168.0.19
+Starting round 100
+192.168.0.14 GOSSIP received from 192.168.0.16
+Ending simulation
+Total bandwidth used on network in bytes: 174848
