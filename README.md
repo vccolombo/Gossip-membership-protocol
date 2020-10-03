@@ -14,6 +14,6 @@ The **gossip membership protocol** tackles this problem by sending its heartbeat
 
 ## This implementation
 
-The implementation in this repository is really basic. The node gossips to a random peer and sends its entire membership table in the message.
+The implementation in this repository is really basic. The node gossips to a random peer and sends its entire membership table in the message. The implementation is robust against both node failures and messages lost during transmission, as shown in the simulation. Node failure chance and message drop ratio can be changed in `Config.hpp`.
 
-Better implementations take notice of the network topology, choosing peers that are close to itself as a way to improve performance. Also, it is not necessary to send the entire table on every message, as a way to decrease network usage, at a cost of more false positives.
+Better implementations take notice of the network topology, choosing peers that are closer to itself (like in the same rack) as a way to decrease usage on routers. Also, it is not necessary to send the entire table on every message, as a way to decrease network usage, at a cost of more false positives.
